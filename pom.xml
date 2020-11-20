@@ -8,17 +8,73 @@
     <artifactId>antlr4_spark_sql_ast</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <properties>
+        <java.source>1.8</java.source>
+        <java.target>1.8</java.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.encoding>UTF-8</maven.compiler.encoding>
+        <main.class.name>org.codingkoala.antlr4_spark_sql_ast.ParserDriver</main.class.name>
+    </properties>
+
     <dependencies>
+        <!--the plugin for in my Mac is 4.8-->
+        <!-- other version will cause errors -->
         <dependency>
             <groupId>org.antlr</groupId>
             <artifactId>antlr4-runtime</artifactId>
             <version>4.8</version>
         </dependency>
-<!--        <dependency>-->
-<!--            <groupId>com.tunnelvisionlabs</groupId>-->
-<!--            <artifactId>antlr4-runtime</artifactId>-->
-<!--            <version>4.4.1</version>-->
-<!--        </dependency>-->
     </dependencies>
+
+    <build>
+        <plugins>
+            <!--把依赖的外部包也打进 jar-with-dependencies 里面，同时指定 mainClass 入口-->
+            <!--这样直接执行 java -jar antlr4_spark_sql_ast-1.0-SNAPSHOT-jar-with-dependencies.jar 就可以运行-->
+            <plugin>
+                <artifactId>maven-assembly-plugin</artifactId>
+                <configuration>
+                    <descriptorRefs>
+                        <descriptorRef>jar-with-dependencies</descriptorRef>
+                    </descriptorRefs>
+                    <archive>
+                        <manifest>
+                            <mainClass>${main.class.name}</mainClass>
+                        </manifest>
+                    </archive>
+                </configuration>
+                <executions>
+                    <execution>
+                        <id>make-assembly</id>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>single</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+            <!--gen 也是一个 source root，如果直接 run 主入口，gen 下面的代码也会打成 class 文件和 src 下面的class 放在一起-->
+            <!--但是如果用 maven 打包，maven 默认只去 src/main 下面去看，gen 下面的代码不会打进去，所以 src 下面依赖 gen 的代码会报错-->
+            <!--因此，要用这个插件，把 gen 下面的代码在 maven 打包的时候也追加进去-->
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>build-helper-maven-plugin</artifactId>
+                <version>1.7</version>
+                <executions>
+                    <execution>
+                        <id>add-source</id>
+                        <phase>generate-sources</phase>
+                        <goals>
+                            <goal>add-source</goal>
+                        </goals>
+                        <configuration>
+                            <sources>
+                                <source>./gen/</source>
+                            </sources>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
 
 </project>
