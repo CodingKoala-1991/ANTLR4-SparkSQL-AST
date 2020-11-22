@@ -11,6 +11,8 @@ public class ParserDriver {
         // 同时还要在 Preferences -> Build, Execution, Deployment -> Compiler -> Java Compiler 里
         // 把 target bytecode version 改成 6，不然会说 Java Compiler 有问题之类的，运行不起来
 
+        // 将 maven 的 settings 设置成国内镜像
+
 
         // String query = "(select a, b, c from tables";
         // String query = "select * from xxx where yy = 'z'";
