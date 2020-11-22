@@ -31,5 +31,3 @@ hs_err_pid*
 !/.idea/
 /.idea/
 /target/
-!/ANTLR4-SparkSQL-AST.iml
-!/antlr4_spark_sql_ast.iml
