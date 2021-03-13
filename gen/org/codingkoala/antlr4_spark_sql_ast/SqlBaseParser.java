@@ -307,6 +307,12 @@ public class SqlBaseParser extends Parser {
 		finally {
 			exitRule();
 		}
+		System.out.println("-------------------------------");
+		System.out.println(_localctx.getClass());
+		System.out.println(_localctx.children.size());
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
 		return _localctx;
 	}
 
@@ -354,6 +360,12 @@ public class SqlBaseParser extends Parser {
 		finally {
 			exitRule();
 		}
+		System.out.println("-------------------------------");
+		System.out.println(_localctx.getClass());
+		System.out.println(_localctx.children.size());
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
 		return _localctx;
 	}
 
@@ -401,6 +413,12 @@ public class SqlBaseParser extends Parser {
 		finally {
 			exitRule();
 		}
+		System.out.println("-------------------------------");
+		System.out.println(_localctx.getClass());
+		System.out.println(_localctx.children.size());
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
 		return _localctx;
 	}
 
@@ -448,6 +466,12 @@ public class SqlBaseParser extends Parser {
 		finally {
 			exitRule();
 		}
+		System.out.println("-------------------------------");
+		System.out.println(_localctx.getClass());
+		System.out.println(_localctx.children.size());
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
 		return _localctx;
 	}
 
@@ -456,7 +480,7 @@ public class SqlBaseParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_statement; }
-	 
+
 		public StatementContext() { }
 		public void copyFrom(StatementContext ctx) {
 			super.copyFrom(ctx);
@@ -2370,7 +2394,7 @@ public class SqlBaseParser extends Parser {
 					}
 				}
 
-				setState(386); 
+				setState(386);
 				_errHandler.sync(this);
 				_la = _input.LA(1);
 				do {
@@ -2380,7 +2404,7 @@ public class SqlBaseParser extends Parser {
 					partitionSpecLocation();
 					}
 					}
-					setState(388); 
+					setState(388);
 					_errHandler.sync(this);
 					_la = _input.LA(1);
 				} while ( _la==PARTITION );
@@ -2412,7 +2436,7 @@ public class SqlBaseParser extends Parser {
 					}
 				}
 
-				setState(400); 
+				setState(400);
 				_errHandler.sync(this);
 				_la = _input.LA(1);
 				do {
@@ -2422,7 +2446,7 @@ public class SqlBaseParser extends Parser {
 					partitionSpec();
 					}
 					}
-					setState(402); 
+					setState(402);
 					_errHandler.sync(this);
 					_la = _input.LA(1);
 				} while ( _la==PARTITION );
@@ -3550,7 +3574,7 @@ public class SqlBaseParser extends Parser {
 						setState(669);
 						matchWildcard();
 						}
-						} 
+						}
 					}
 					setState(674);
 					_errHandler.sync(this);
@@ -3747,7 +3771,7 @@ public class SqlBaseParser extends Parser {
 						setState(724);
 						matchWildcard();
 						}
-						} 
+						}
 					}
 					setState(729);
 					_errHandler.sync(this);
@@ -3773,7 +3797,7 @@ public class SqlBaseParser extends Parser {
 						setState(732);
 						matchWildcard();
 						}
-						} 
+						}
 					}
 					setState(737);
 					_errHandler.sync(this);
@@ -3797,7 +3821,7 @@ public class SqlBaseParser extends Parser {
 						setState(739);
 						matchWildcard();
 						}
-						} 
+						}
 					}
 					setState(744);
 					_errHandler.sync(this);
@@ -3829,7 +3853,7 @@ public class SqlBaseParser extends Parser {
 						setState(747);
 						matchWildcard();
 						}
-						} 
+						}
 					}
 					setState(752);
 					_errHandler.sync(this);
@@ -3847,6 +3871,12 @@ public class SqlBaseParser extends Parser {
 		finally {
 			exitRule();
 		}
+		System.out.println("-------------------------------");
+		System.out.println(_localctx.getClass());
+		System.out.println(_localctx.children.size());
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
 		return _localctx;
 	}
 
@@ -4574,6 +4604,12 @@ public class SqlBaseParser extends Parser {
 		finally {
 			exitRule();
 		}
+		System.out.println("-------------------------------");
+		System.out.println(_localctx.getClass());
+		System.out.println(_localctx.children.size());
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
 		return _localctx;
 	}
 
@@ -4664,6 +4700,12 @@ public class SqlBaseParser extends Parser {
 		finally {
 			exitRule();
 		}
+		System.out.println("-------------------------------");
+		System.out.println(_localctx.getClass());
+		System.out.println(_localctx.children.size());
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
 		return _localctx;
 	}
 
@@ -4745,6 +4787,12 @@ public class SqlBaseParser extends Parser {
 		finally {
 			exitRule();
 		}
+		System.out.println("-------------------------------");
+		System.out.println(_localctx.getClass());
+		System.out.println(_localctx.children.size());
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
 		return _localctx;
 	}
 
@@ -4837,6 +4885,12 @@ public class SqlBaseParser extends Parser {
 		finally {
 			exitRule();
 		}
+		System.out.println("-------------------------------");
+		System.out.println(_localctx.getClass());
+		System.out.println(_localctx.children.size());
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
 		return _localctx;
 	}
 
@@ -4882,6 +4936,12 @@ public class SqlBaseParser extends Parser {
 		finally {
 			exitRule();
 		}
+		System.out.println("-------------------------------");
+		System.out.println(_localctx.getClass());
+		System.out.println(_localctx.children.size());
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
 		return _localctx;
 	}
 
@@ -4940,6 +5000,12 @@ public class SqlBaseParser extends Parser {
 		finally {
 			exitRule();
 		}
+		System.out.println("-------------------------------");
+		System.out.println(_localctx.getClass());
+		System.out.println(_localctx.children.size());
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
 		return _localctx;
 	}
 
@@ -5062,6 +5128,12 @@ public class SqlBaseParser extends Parser {
 		finally {
 			exitRule();
 		}
+		System.out.println("-------------------------------");
+		System.out.println(_localctx.getClass());
+		System.out.println(_localctx.children.size());
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
 		return _localctx;
 	}
 
@@ -5120,6 +5192,12 @@ public class SqlBaseParser extends Parser {
 		finally {
 			exitRule();
 		}
+		System.out.println("-------------------------------");
+		System.out.println(_localctx.getClass());
+		System.out.println(_localctx.children.size());
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
 		return _localctx;
 	}
 
@@ -5191,6 +5269,12 @@ public class SqlBaseParser extends Parser {
 		finally {
 			exitRule();
 		}
+		System.out.println("-------------------------------");
+		System.out.println(_localctx.getClass());
+		System.out.println(_localctx.children.size());
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
 		return _localctx;
 	}
 
@@ -5252,6 +5336,12 @@ public class SqlBaseParser extends Parser {
 		finally {
 			exitRule();
 		}
+		System.out.println("-------------------------------");
+		System.out.println(_localctx.getClass());
+		System.out.println(_localctx.children.size());
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
 		return _localctx;
 	}
 
@@ -5340,6 +5430,12 @@ public class SqlBaseParser extends Parser {
 		finally {
 			exitRule();
 		}
+		System.out.println("-------------------------------");
+		System.out.println(_localctx.getClass());
+		System.out.println(_localctx.children.size());
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
 		return _localctx;
 	}
 
@@ -5627,6 +5723,12 @@ public class SqlBaseParser extends Parser {
 		finally {
 			exitRule();
 		}
+		System.out.println("-------------------------------");
+		System.out.println(_localctx.getClass());
+		System.out.println(_localctx.children.size());
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
 		return _localctx;
 	}
 
@@ -5694,6 +5796,12 @@ public class SqlBaseParser extends Parser {
 		finally {
 			exitRule();
 		}
+		System.out.println("-------------------------------");
+		System.out.println(_localctx.getClass());
+		System.out.println(_localctx.children.size());
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
 		return _localctx;
 	}
 
@@ -5760,6 +5868,12 @@ public class SqlBaseParser extends Parser {
 		finally {
 			exitRule();
 		}
+		System.out.println("-------------------------------");
+		System.out.println(_localctx.getClass());
+		System.out.println(_localctx.children.size());
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
 		return _localctx;
 	}
 
@@ -5807,6 +5921,12 @@ public class SqlBaseParser extends Parser {
 		finally {
 			exitRule();
 		}
+		System.out.println("-------------------------------");
+		System.out.println(_localctx.getClass());
+		System.out.println(_localctx.children.size());
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
 		return _localctx;
 	}
 
@@ -5875,6 +5995,12 @@ public class SqlBaseParser extends Parser {
 		finally {
 			exitRule();
 		}
+		System.out.println("-------------------------------");
+		System.out.println(_localctx.getClass());
+		System.out.println(_localctx.children.size());
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
 		return _localctx;
 	}
 
@@ -5946,6 +6072,12 @@ public class SqlBaseParser extends Parser {
 		finally {
 			exitRule();
 		}
+		System.out.println("-------------------------------");
+		System.out.println(_localctx.getClass());
+		System.out.println(_localctx.children.size());
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
 		return _localctx;
 	}
 
@@ -6229,6 +6361,12 @@ public class SqlBaseParser extends Parser {
 		finally {
 			exitRule();
 		}
+		System.out.println("-------------------------------");
+		System.out.println(_localctx.getClass());
+		System.out.println(_localctx.children.size());
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
 		return _localctx;
 	}
 
@@ -6306,6 +6444,12 @@ public class SqlBaseParser extends Parser {
 		finally {
 			exitRule();
 		}
+		System.out.println("-------------------------------");
+		System.out.println(_localctx.getClass());
+		System.out.println(_localctx.children.size());
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
 		return _localctx;
 	}
 
@@ -6374,6 +6518,12 @@ public class SqlBaseParser extends Parser {
 		finally {
 			exitRule();
 		}
+		System.out.println("-------------------------------");
+		System.out.println(_localctx.getClass());
+		System.out.println(_localctx.children.size());
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
 		return _localctx;
 	}
 
@@ -6442,6 +6592,12 @@ public class SqlBaseParser extends Parser {
 		finally {
 			exitRule();
 		}
+		System.out.println("-------------------------------");
+		System.out.println(_localctx.getClass());
+		System.out.println(_localctx.children.size());
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
 		return _localctx;
 	}
 
@@ -6513,6 +6669,12 @@ public class SqlBaseParser extends Parser {
 		finally {
 			exitRule();
 		}
+		System.out.println("-------------------------------");
+		System.out.println(_localctx.getClass());
+		System.out.println(_localctx.children.size());
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
 		return _localctx;
 	}
 
@@ -6521,7 +6683,7 @@ public class SqlBaseParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_fileFormat; }
-	 
+
 		public FileFormatContext() { }
 		public void copyFrom(FileFormatContext ctx) {
 			super.copyFrom(ctx);
@@ -6610,6 +6772,12 @@ public class SqlBaseParser extends Parser {
 		finally {
 			exitRule();
 		}
+		System.out.println("-------------------------------");
+		System.out.println(_localctx.getClass());
+		System.out.println(_localctx.children.size());
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
 		return _localctx;
 	}
 
@@ -6671,6 +6839,12 @@ public class SqlBaseParser extends Parser {
 		finally {
 			exitRule();
 		}
+		System.out.println("-------------------------------");
+		System.out.println(_localctx.getClass());
+		System.out.println(_localctx.children.size());
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
 		return _localctx;
 	}
 
@@ -6718,6 +6892,12 @@ public class SqlBaseParser extends Parser {
 		finally {
 			exitRule();
 		}
+		System.out.println("-------------------------------");
+		System.out.println(_localctx.getClass());
+		System.out.println(_localctx.children.size());
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
 		return _localctx;
 	}
 
@@ -6726,7 +6906,7 @@ public class SqlBaseParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_queryNoWith; }
-	 
+
 		public QueryNoWithContext() { }
 		public void copyFrom(QueryNoWithContext ctx) {
 			super.copyFrom(ctx);
@@ -6817,7 +6997,7 @@ public class SqlBaseParser extends Parser {
 				{
 				setState(1163);
 				fromClause();
-				setState(1165); 
+				setState(1165);
 				_errHandler.sync(this);
 				_la = _input.LA(1);
 				do {
@@ -6827,7 +7007,7 @@ public class SqlBaseParser extends Parser {
 					multiInsertQueryBody();
 					}
 					}
-					setState(1167); 
+					setState(1167);
 					_errHandler.sync(this);
 					_la = _input.LA(1);
 				} while ( _la==SELECT || _la==FROM || _la==INSERT || _la==MAP || _la==REDUCE );
@@ -6843,6 +7023,12 @@ public class SqlBaseParser extends Parser {
 		finally {
 			exitRule();
 		}
+		System.out.println("-------------------------------");
+		System.out.println(_localctx.getClass());
+		System.out.println(_localctx.children.size());
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
 		return _localctx;
 	}
 
@@ -7064,6 +7250,12 @@ public class SqlBaseParser extends Parser {
 		finally {
 			exitRule();
 		}
+		System.out.println("-------------------------------");
+		System.out.println(_localctx.getClass());
+		System.out.println(_localctx.children.size());
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
 		return _localctx;
 	}
 
@@ -7127,6 +7319,12 @@ public class SqlBaseParser extends Parser {
 		finally {
 			exitRule();
 		}
+		System.out.println("-------------------------------");
+		System.out.println(_localctx.getClass());
+		System.out.println(_localctx.children.size());
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
 		return _localctx;
 	}
 
@@ -7135,7 +7333,7 @@ public class SqlBaseParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_queryTerm; }
-	 
+
 		public QueryTermContext() { }
 		public void copyFrom(QueryTermContext ctx) {
 			super.copyFrom(ctx);
@@ -7256,7 +7454,7 @@ public class SqlBaseParser extends Parser {
 					setState(1240);
 					((SetOperationContext)_localctx).right = queryTerm(2);
 					}
-					} 
+					}
 				}
 				setState(1245);
 				_errHandler.sync(this);
@@ -7272,6 +7470,12 @@ public class SqlBaseParser extends Parser {
 		finally {
 			unrollRecursionContexts(_parentctx);
 		}
+		System.out.println("-------------------------------");
+		System.out.println(_localctx.getClass());
+		System.out.println(_localctx.children.size());
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
 		return _localctx;
 	}
 
@@ -7280,7 +7484,7 @@ public class SqlBaseParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_queryPrimary; }
-	 
+
 		public QueryPrimaryContext() { }
 		public void copyFrom(QueryPrimaryContext ctx) {
 			super.copyFrom(ctx);
@@ -7424,6 +7628,12 @@ public class SqlBaseParser extends Parser {
 		finally {
 			exitRule();
 		}
+		System.out.println("-------------------------------");
+		System.out.println(_localctx.getClass());
+		System.out.println(_localctx.children.size());
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
 		return _localctx;
 	}
 
@@ -7516,6 +7726,12 @@ public class SqlBaseParser extends Parser {
 		finally {
 			exitRule();
 		}
+		System.out.println("-------------------------------");
+		System.out.println(_localctx.getClass());
+		System.out.println(_localctx.children.size());
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
 		return _localctx;
 	}
 
@@ -7852,7 +8068,7 @@ public class SqlBaseParser extends Parser {
 						setState(1331);
 						lateralView();
 						}
-						} 
+						}
 					}
 					setState(1336);
 					_errHandler.sync(this);
@@ -7915,6 +8131,12 @@ public class SqlBaseParser extends Parser {
 		finally {
 			exitRule();
 		}
+		System.out.println("-------------------------------");
+		System.out.println(_localctx.getClass());
+		System.out.println(_localctx.children.size());
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
 		return _localctx;
 	}
 
@@ -7974,7 +8196,7 @@ public class SqlBaseParser extends Parser {
 					setState(1356);
 					relation();
 					}
-					} 
+					}
 				}
 				setState(1361);
 				_errHandler.sync(this);
@@ -7990,7 +8212,7 @@ public class SqlBaseParser extends Parser {
 					setState(1362);
 					lateralView();
 					}
-					} 
+					}
 				}
 				setState(1367);
 				_errHandler.sync(this);
@@ -8006,6 +8228,12 @@ public class SqlBaseParser extends Parser {
 		finally {
 			exitRule();
 		}
+		System.out.println("-------------------------------");
+		System.out.println(_localctx.getClass());
+		System.out.println(_localctx.children.size());
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
 		return _localctx;
 	}
 
@@ -8079,7 +8307,7 @@ public class SqlBaseParser extends Parser {
 					((AggregationContext)_localctx).expression = expression();
 					((AggregationContext)_localctx).groupingExpressions.add(((AggregationContext)_localctx).expression);
 					}
-					} 
+					}
 				}
 				setState(1377);
 				_errHandler.sync(this);
@@ -8145,6 +8373,12 @@ public class SqlBaseParser extends Parser {
 		finally {
 			exitRule();
 		}
+		System.out.println("-------------------------------");
+		System.out.println(_localctx.getClass());
+		System.out.println(_localctx.children.size());
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
 		return _localctx;
 	}
 
@@ -8234,6 +8468,12 @@ public class SqlBaseParser extends Parser {
 		finally {
 			exitRule();
 		}
+		System.out.println("-------------------------------");
+		System.out.println(_localctx.getClass());
+		System.out.println(_localctx.children.size());
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
 		return _localctx;
 	}
 
@@ -8366,7 +8606,7 @@ public class SqlBaseParser extends Parser {
 						((LateralViewContext)_localctx).identifier = identifier();
 						((LateralViewContext)_localctx).colName.add(((LateralViewContext)_localctx).identifier);
 						}
-						} 
+						}
 					}
 					setState(1441);
 					_errHandler.sync(this);
@@ -8385,6 +8625,12 @@ public class SqlBaseParser extends Parser {
 		finally {
 			exitRule();
 		}
+		System.out.println("-------------------------------");
+		System.out.println(_localctx.getClass());
+		System.out.println(_localctx.children.size());
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
 		return _localctx;
 	}
 
@@ -8437,6 +8683,12 @@ public class SqlBaseParser extends Parser {
 		finally {
 			exitRule();
 		}
+		System.out.println("-------------------------------");
+		System.out.println(_localctx.getClass());
+		System.out.println(_localctx.children.size());
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
 		return _localctx;
 	}
 
@@ -8488,7 +8740,7 @@ public class SqlBaseParser extends Parser {
 					setState(1447);
 					joinRelation();
 					}
-					} 
+					}
 				}
 				setState(1452);
 				_errHandler.sync(this);
@@ -8504,6 +8756,12 @@ public class SqlBaseParser extends Parser {
 		finally {
 			exitRule();
 		}
+		System.out.println("-------------------------------");
+		System.out.println(_localctx.getClass());
+		System.out.println(_localctx.children.size());
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
 		return _localctx;
 	}
 
@@ -8600,6 +8858,12 @@ public class SqlBaseParser extends Parser {
 		finally {
 			exitRule();
 		}
+		System.out.println("-------------------------------");
+		System.out.println(_localctx.getClass());
+		System.out.println(_localctx.children.size());
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
 		return _localctx;
 	}
 
@@ -8748,6 +9012,12 @@ public class SqlBaseParser extends Parser {
 		finally {
 			exitRule();
 		}
+		System.out.println("-------------------------------");
+		System.out.println(_localctx.getClass());
+		System.out.println(_localctx.children.size());
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
 		return _localctx;
 	}
 
@@ -8840,6 +9110,12 @@ public class SqlBaseParser extends Parser {
 		finally {
 			exitRule();
 		}
+		System.out.println("-------------------------------");
+		System.out.println(_localctx.getClass());
+		System.out.println(_localctx.children.size());
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
 		return _localctx;
 	}
 
@@ -8997,6 +9273,12 @@ public class SqlBaseParser extends Parser {
 		finally {
 			exitRule();
 		}
+		System.out.println("-------------------------------");
+		System.out.println(_localctx.getClass());
+		System.out.println(_localctx.children.size());
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
 		return _localctx;
 	}
 
@@ -9045,6 +9327,12 @@ public class SqlBaseParser extends Parser {
 		finally {
 			exitRule();
 		}
+		System.out.println("-------------------------------");
+		System.out.println(_localctx.getClass());
+		System.out.println(_localctx.children.size());
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
 		return _localctx;
 	}
 
@@ -9095,7 +9383,7 @@ public class SqlBaseParser extends Parser {
 					setState(1539);
 					identifier();
 					}
-					} 
+					}
 				}
 				setState(1544);
 				_errHandler.sync(this);
@@ -9111,6 +9399,12 @@ public class SqlBaseParser extends Parser {
 		finally {
 			exitRule();
 		}
+		System.out.println("-------------------------------");
+		System.out.println(_localctx.getClass());
+		System.out.println(_localctx.children.size());
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
 		return _localctx;
 	}
 
@@ -9179,6 +9473,12 @@ public class SqlBaseParser extends Parser {
 		finally {
 			exitRule();
 		}
+		System.out.println("-------------------------------");
+		System.out.println(_localctx.getClass());
+		System.out.println(_localctx.children.size());
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
 		return _localctx;
 	}
 
@@ -9246,6 +9546,12 @@ public class SqlBaseParser extends Parser {
 		finally {
 			exitRule();
 		}
+		System.out.println("-------------------------------");
+		System.out.println(_localctx.getClass());
+		System.out.println(_localctx.children.size());
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
 		return _localctx;
 	}
 
@@ -9314,6 +9620,12 @@ public class SqlBaseParser extends Parser {
 		finally {
 			exitRule();
 		}
+		System.out.println("-------------------------------");
+		System.out.println(_localctx.getClass());
+		System.out.println(_localctx.children.size());
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
 		return _localctx;
 	}
 
@@ -9373,6 +9685,12 @@ public class SqlBaseParser extends Parser {
 		finally {
 			exitRule();
 		}
+		System.out.println("-------------------------------");
+		System.out.println(_localctx.getClass());
+		System.out.println(_localctx.children.size());
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
 		return _localctx;
 	}
 
@@ -9381,7 +9699,7 @@ public class SqlBaseParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_relationPrimary; }
-	 
+
 		public RelationPrimaryContext() { }
 		public void copyFrom(RelationPrimaryContext ctx) {
 			super.copyFrom(ctx);
@@ -9696,6 +10014,12 @@ public class SqlBaseParser extends Parser {
 		finally {
 			exitRule();
 		}
+		System.out.println("-------------------------------");
+		System.out.println(_localctx.getClass());
+		System.out.println(_localctx.children.size());
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
 		return _localctx;
 	}
 
@@ -9756,7 +10080,7 @@ public class SqlBaseParser extends Parser {
 					setState(1630);
 					expression();
 					}
-					} 
+					}
 				}
 				setState(1635);
 				_errHandler.sync(this);
@@ -9802,6 +10126,12 @@ public class SqlBaseParser extends Parser {
 		finally {
 			exitRule();
 		}
+		System.out.println("-------------------------------");
+		System.out.println(_localctx.getClass());
+		System.out.println(_localctx.children.size());
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
 		return _localctx;
 	}
 
@@ -9810,7 +10140,7 @@ public class SqlBaseParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_rowFormat; }
-	 
+
 		public RowFormatContext() { }
 		public void copyFrom(RowFormatContext ctx) {
 			super.copyFrom(ctx);
@@ -10046,6 +10376,12 @@ public class SqlBaseParser extends Parser {
 		finally {
 			exitRule();
 		}
+		System.out.println("-------------------------------");
+		System.out.println(_localctx.getClass());
+		System.out.println(_localctx.children.size());
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
 		return _localctx;
 	}
 
@@ -10107,6 +10443,12 @@ public class SqlBaseParser extends Parser {
 		finally {
 			exitRule();
 		}
+		System.out.println("-------------------------------");
+		System.out.println(_localctx.getClass());
+		System.out.println(_localctx.children.size());
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
 		return _localctx;
 	}
 
@@ -10397,6 +10739,12 @@ public class SqlBaseParser extends Parser {
 		finally {
 			exitRule();
 		}
+		System.out.println("-------------------------------");
+		System.out.println(_localctx.getClass());
+		System.out.println(_localctx.children.size());
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
 		return _localctx;
 	}
 
@@ -10447,7 +10795,7 @@ public class SqlBaseParser extends Parser {
 					setState(1715);
 					namedExpression();
 					}
-					} 
+					}
 				}
 				setState(1720);
 				_errHandler.sync(this);
@@ -10463,6 +10811,12 @@ public class SqlBaseParser extends Parser {
 		finally {
 			exitRule();
 		}
+		System.out.println("-------------------------------");
+		System.out.println(_localctx.getClass());
+		System.out.println(_localctx.children.size());
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
 		return _localctx;
 	}
 
@@ -10507,6 +10861,12 @@ public class SqlBaseParser extends Parser {
 		finally {
 			exitRule();
 		}
+		System.out.println("-------------------------------");
+		System.out.println(_localctx.getClass());
+		System.out.println(_localctx.children.size());
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
 		return _localctx;
 	}
 
@@ -10515,7 +10875,7 @@ public class SqlBaseParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_booleanExpression; }
-	 
+
 		public BooleanExpressionContext() { }
 		public void copyFrom(BooleanExpressionContext ctx) {
 			super.copyFrom(ctx);
@@ -10702,7 +11062,7 @@ public class SqlBaseParser extends Parser {
 						}
 						break;
 					}
-					} 
+					}
 				}
 				setState(1744);
 				_errHandler.sync(this);
@@ -10718,6 +11078,12 @@ public class SqlBaseParser extends Parser {
 		finally {
 			unrollRecursionContexts(_parentctx);
 		}
+		System.out.println("-------------------------------");
+		System.out.println(_localctx.getClass());
+		System.out.println(_localctx.children.size());
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
 		return _localctx;
 	}
 
@@ -10775,6 +11141,12 @@ public class SqlBaseParser extends Parser {
 		finally {
 			exitRule();
 		}
+		System.out.println("-------------------------------");
+		System.out.println(_localctx.getClass());
+		System.out.println(_localctx.children.size());
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
 		return _localctx;
 	}
 
@@ -10975,6 +11347,12 @@ public class SqlBaseParser extends Parser {
 		finally {
 			exitRule();
 		}
+		System.out.println("-------------------------------");
+		System.out.println(_localctx.getClass());
+		System.out.println(_localctx.children.size());
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
 		return _localctx;
 	}
 
@@ -10983,7 +11361,7 @@ public class SqlBaseParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_valueExpression; }
-	 
+
 		public ValueExpressionContext() { }
 		public void copyFrom(ValueExpressionContext ctx) {
 			super.copyFrom(ctx);
@@ -11266,7 +11644,7 @@ public class SqlBaseParser extends Parser {
 						}
 						break;
 					}
-					} 
+					}
 				}
 				setState(1824);
 				_errHandler.sync(this);
@@ -11282,6 +11660,12 @@ public class SqlBaseParser extends Parser {
 		finally {
 			unrollRecursionContexts(_parentctx);
 		}
+		System.out.println("-------------------------------");
+		System.out.println(_localctx.getClass());
+		System.out.println(_localctx.children.size());
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
 		return _localctx;
 	}
 
@@ -11290,7 +11674,7 @@ public class SqlBaseParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_primaryExpression; }
-	 
+
 		public PrimaryExpressionContext() { }
 		public void copyFrom(PrimaryExpressionContext ctx) {
 			super.copyFrom(ctx);
@@ -11647,7 +12031,7 @@ public class SqlBaseParser extends Parser {
 				match(CASE);
 				setState(1828);
 				((SimpleCaseContext)_localctx).value = expression();
-				setState(1830); 
+				setState(1830);
 				_errHandler.sync(this);
 				_la = _input.LA(1);
 				do {
@@ -11657,7 +12041,7 @@ public class SqlBaseParser extends Parser {
 					whenClause();
 					}
 					}
-					setState(1832); 
+					setState(1832);
 					_errHandler.sync(this);
 					_la = _input.LA(1);
 				} while ( _la==WHEN );
@@ -11684,7 +12068,7 @@ public class SqlBaseParser extends Parser {
 				_prevctx = _localctx;
 				setState(1840);
 				match(CASE);
-				setState(1842); 
+				setState(1842);
 				_errHandler.sync(this);
 				_la = _input.LA(1);
 				do {
@@ -11694,7 +12078,7 @@ public class SqlBaseParser extends Parser {
 					whenClause();
 					}
 					}
-					setState(1844); 
+					setState(1844);
 					_errHandler.sync(this);
 					_la = _input.LA(1);
 				} while ( _la==WHEN );
@@ -11773,7 +12157,7 @@ public class SqlBaseParser extends Parser {
 				match(T__0);
 				setState(1866);
 				expression();
-				setState(1869); 
+				setState(1869);
 				_errHandler.sync(this);
 				_la = _input.LA(1);
 				do {
@@ -11785,7 +12169,7 @@ public class SqlBaseParser extends Parser {
 					expression();
 					}
 					}
-					setState(1871); 
+					setState(1871);
 					_errHandler.sync(this);
 					_la = _input.LA(1);
 				} while ( _la==T__2 );
@@ -11931,7 +12315,7 @@ public class SqlBaseParser extends Parser {
 						}
 						break;
 					}
-					} 
+					}
 				}
 				setState(1918);
 				_errHandler.sync(this);
@@ -11947,6 +12331,12 @@ public class SqlBaseParser extends Parser {
 		finally {
 			unrollRecursionContexts(_parentctx);
 		}
+		System.out.println("-------------------------------");
+		System.out.println(_localctx.getClass());
+		System.out.println(_localctx.children.size());
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
 		return _localctx;
 	}
 
@@ -11955,7 +12345,7 @@ public class SqlBaseParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_constant; }
-	 
+
 		public ConstantContext() { }
 		public void copyFrom(ConstantContext ctx) {
 			super.copyFrom(ctx);
@@ -12130,7 +12520,7 @@ public class SqlBaseParser extends Parser {
 				_localctx = new StringLiteralContext(_localctx);
 				enterOuterAlt(_localctx, 6);
 				{
-				setState(1927); 
+				setState(1927);
 				_errHandler.sync(this);
 				_alt = 1;
 				do {
@@ -12146,7 +12536,7 @@ public class SqlBaseParser extends Parser {
 					default:
 						throw new NoViableAltException(this);
 					}
-					setState(1929); 
+					setState(1929);
 					_errHandler.sync(this);
 					_alt = getInterpreter().adaptivePredict(_input,263,_ctx);
 				} while ( _alt!=2 && _alt!=org.antlr.v4.runtime.atn.ATN.INVALID_ALT_NUMBER );
@@ -12162,6 +12552,12 @@ public class SqlBaseParser extends Parser {
 		finally {
 			exitRule();
 		}
+		System.out.println("-------------------------------");
+		System.out.println(_localctx.getClass());
+		System.out.println(_localctx.children.size());
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
 		return _localctx;
 	}
 
@@ -12220,6 +12616,12 @@ public class SqlBaseParser extends Parser {
 		finally {
 			exitRule();
 		}
+		System.out.println("-------------------------------");
+		System.out.println(_localctx.getClass());
+		System.out.println(_localctx.children.size());
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
 		return _localctx;
 	}
 
@@ -12281,6 +12683,12 @@ public class SqlBaseParser extends Parser {
 		finally {
 			exitRule();
 		}
+		System.out.println("-------------------------------");
+		System.out.println(_localctx.getClass());
+		System.out.println(_localctx.children.size());
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
 		return _localctx;
 	}
 
@@ -12335,6 +12743,12 @@ public class SqlBaseParser extends Parser {
 		finally {
 			exitRule();
 		}
+		System.out.println("-------------------------------");
+		System.out.println(_localctx.getClass());
+		System.out.println(_localctx.children.size());
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
 		return _localctx;
 	}
 
@@ -12387,6 +12801,12 @@ public class SqlBaseParser extends Parser {
 		finally {
 			exitRule();
 		}
+		System.out.println("-------------------------------");
+		System.out.println(_localctx.getClass());
+		System.out.println(_localctx.children.size());
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
 		return _localctx;
 	}
 
@@ -12436,7 +12856,7 @@ public class SqlBaseParser extends Parser {
 					setState(1942);
 					intervalField();
 					}
-					} 
+					}
 				}
 				setState(1947);
 				_errHandler.sync(this);
@@ -12452,6 +12872,12 @@ public class SqlBaseParser extends Parser {
 		finally {
 			exitRule();
 		}
+		System.out.println("-------------------------------");
+		System.out.println(_localctx.getClass());
+		System.out.println(_localctx.children.size());
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
 		return _localctx;
 	}
 
@@ -12520,6 +12946,12 @@ public class SqlBaseParser extends Parser {
 		finally {
 			exitRule();
 		}
+		System.out.println("-------------------------------");
+		System.out.println(_localctx.getClass());
+		System.out.println(_localctx.children.size());
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
 		return _localctx;
 	}
 
@@ -12611,6 +13043,12 @@ public class SqlBaseParser extends Parser {
 		finally {
 			exitRule();
 		}
+		System.out.println("-------------------------------");
+		System.out.println(_localctx.getClass());
+		System.out.println(_localctx.children.size());
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
 		return _localctx;
 	}
 
@@ -12619,7 +13057,7 @@ public class SqlBaseParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_dataType; }
-	 
+
 		public DataTypeContext() { }
 		public void copyFrom(DataTypeContext ctx) {
 			super.copyFrom(ctx);
@@ -12807,6 +13245,12 @@ public class SqlBaseParser extends Parser {
 		finally {
 			exitRule();
 		}
+		System.out.println("-------------------------------");
+		System.out.println(_localctx.getClass());
+		System.out.println(_localctx.children.size());
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
 		return _localctx;
 	}
 
@@ -12857,7 +13301,7 @@ public class SqlBaseParser extends Parser {
 					setState(1999);
 					colType();
 					}
-					} 
+					}
 				}
 				setState(2004);
 				_errHandler.sync(this);
@@ -12873,6 +13317,12 @@ public class SqlBaseParser extends Parser {
 		finally {
 			exitRule();
 		}
+		System.out.println("-------------------------------");
+		System.out.println(_localctx.getClass());
+		System.out.println(_localctx.children.size());
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
 		return _localctx;
 	}
 
@@ -12936,6 +13386,12 @@ public class SqlBaseParser extends Parser {
 		finally {
 			exitRule();
 		}
+		System.out.println("-------------------------------");
+		System.out.println(_localctx.getClass());
+		System.out.println(_localctx.children.size());
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
 		return _localctx;
 	}
 
@@ -13000,6 +13456,12 @@ public class SqlBaseParser extends Parser {
 		finally {
 			exitRule();
 		}
+		System.out.println("-------------------------------");
+		System.out.println(_localctx.getClass());
+		System.out.println(_localctx.children.size());
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
 		return _localctx;
 	}
 
@@ -13066,6 +13528,12 @@ public class SqlBaseParser extends Parser {
 		finally {
 			exitRule();
 		}
+		System.out.println("-------------------------------");
+		System.out.println(_localctx.getClass());
+		System.out.println(_localctx.children.size());
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
 		return _localctx;
 	}
 
@@ -13123,6 +13591,12 @@ public class SqlBaseParser extends Parser {
 		finally {
 			exitRule();
 		}
+		System.out.println("-------------------------------");
+		System.out.println(_localctx.getClass());
+		System.out.println(_localctx.children.size());
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
 		return _localctx;
 	}
 
@@ -13176,7 +13650,7 @@ public class SqlBaseParser extends Parser {
 					setState(2034);
 					namedWindow();
 					}
-					} 
+					}
 				}
 				setState(2039);
 				_errHandler.sync(this);
@@ -13192,6 +13666,12 @@ public class SqlBaseParser extends Parser {
 		finally {
 			exitRule();
 		}
+		System.out.println("-------------------------------");
+		System.out.println(_localctx.getClass());
+		System.out.println(_localctx.children.size());
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
 		return _localctx;
 	}
 
@@ -13244,6 +13724,12 @@ public class SqlBaseParser extends Parser {
 		finally {
 			exitRule();
 		}
+		System.out.println("-------------------------------");
+		System.out.println(_localctx.getClass());
+		System.out.println(_localctx.children.size());
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
 		return _localctx;
 	}
 
@@ -13252,7 +13738,7 @@ public class SqlBaseParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_windowSpec; }
-	 
+
 		public WindowSpecContext() { }
 		public void copyFrom(WindowSpecContext ctx) {
 			super.copyFrom(ctx);
@@ -13694,6 +14180,12 @@ public class SqlBaseParser extends Parser {
 		finally {
 			exitRule();
 		}
+		System.out.println("-------------------------------");
+		System.out.println(_localctx.getClass());
+		System.out.println(_localctx.children.size());
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
 		return _localctx;
 	}
 
@@ -13795,6 +14287,12 @@ public class SqlBaseParser extends Parser {
 		finally {
 			exitRule();
 		}
+		System.out.println("-------------------------------");
+		System.out.println(_localctx.getClass());
+		System.out.println(_localctx.children.size());
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
 		return _localctx;
 	}
 
@@ -13890,6 +14388,12 @@ public class SqlBaseParser extends Parser {
 		finally {
 			exitRule();
 		}
+		System.out.println("-------------------------------");
+		System.out.println(_localctx.getClass());
+		System.out.println(_localctx.children.size());
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
 		return _localctx;
 	}
 
@@ -13940,7 +14444,7 @@ public class SqlBaseParser extends Parser {
 					setState(2117);
 					identifier();
 					}
-					} 
+					}
 				}
 				setState(2122);
 				_errHandler.sync(this);
@@ -13956,6 +14460,12 @@ public class SqlBaseParser extends Parser {
 		finally {
 			exitRule();
 		}
+		System.out.println("-------------------------------");
+		System.out.println(_localctx.getClass());
+		System.out.println(_localctx.children.size());
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
 		return _localctx;
 	}
 
@@ -14309,6 +14819,12 @@ public class SqlBaseParser extends Parser {
 		finally {
 			exitRule();
 		}
+		System.out.println("-------------------------------");
+		System.out.println(_localctx.getClass());
+		System.out.println(_localctx.children.size());
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
 		return _localctx;
 	}
 
@@ -14317,7 +14833,7 @@ public class SqlBaseParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_strictIdentifier; }
-	 
+
 		public StrictIdentifierContext() { }
 		public void copyFrom(StrictIdentifierContext ctx) {
 			super.copyFrom(ctx);
@@ -14593,6 +15109,12 @@ public class SqlBaseParser extends Parser {
 		finally {
 			exitRule();
 		}
+		System.out.println("-------------------------------");
+		System.out.println(_localctx.getClass());
+		System.out.println(_localctx.children.size());
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
 		return _localctx;
 	}
 
@@ -14635,6 +15157,12 @@ public class SqlBaseParser extends Parser {
 		finally {
 			exitRule();
 		}
+		System.out.println("-------------------------------");
+		System.out.println(_localctx.getClass());
+		System.out.println(_localctx.children.size());
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
 		return _localctx;
 	}
 
@@ -14643,7 +15171,7 @@ public class SqlBaseParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_number; }
-	 
+
 		public NumberContext() { }
 		public void copyFrom(NumberContext ctx) {
 			super.copyFrom(ctx);
@@ -14920,6 +15448,12 @@ public class SqlBaseParser extends Parser {
 		finally {
 			exitRule();
 		}
+		System.out.println("-------------------------------");
+		System.out.println(_localctx.getClass());
+		System.out.println(_localctx.children.size());
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
 		return _localctx;
 	}
 
@@ -15158,6 +15692,12 @@ public class SqlBaseParser extends Parser {
 		finally {
 			exitRule();
 		}
+		System.out.println("-------------------------------");
+		System.out.println(_localctx.getClass());
+		System.out.println(_localctx.children.size());
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
 		return _localctx;
 	}
 
