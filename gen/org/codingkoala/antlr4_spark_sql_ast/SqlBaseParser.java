@@ -309,9 +309,14 @@ public class SqlBaseParser extends Parser {
 		}
 		System.out.println("-------------------------------");
 		System.out.println(_localctx.getClass());
+		System.out.println("the state is " + getState());
+		System.out.println("no parent node");
 		System.out.println(_localctx.children.size());
 		for (int i = 0; i < _localctx.children.size(); i++)
 			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.println(_localctx.children.get(i).getClass());
 		System.out.println();
 		return _localctx;
 	}
@@ -362,9 +367,14 @@ public class SqlBaseParser extends Parser {
 		}
 		System.out.println("-------------------------------");
 		System.out.println(_localctx.getClass());
+		System.out.println("the state is " + getState());
+		System.out.println("the parent is " + _localctx.parent.getClass());
 		System.out.println(_localctx.children.size());
 		for (int i = 0; i < _localctx.children.size(); i++)
 			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.println(_localctx.children.get(i).getClass());
 		System.out.println();
 		return _localctx;
 	}
@@ -415,9 +425,14 @@ public class SqlBaseParser extends Parser {
 		}
 		System.out.println("-------------------------------");
 		System.out.println(_localctx.getClass());
+		System.out.println("the state is " + getState());
+		System.out.println("the parent is " + _localctx.parent.getClass());
 		System.out.println(_localctx.children.size());
 		for (int i = 0; i < _localctx.children.size(); i++)
 			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.println(_localctx.children.get(i).getClass());
 		System.out.println();
 		return _localctx;
 	}
@@ -468,9 +483,14 @@ public class SqlBaseParser extends Parser {
 		}
 		System.out.println("-------------------------------");
 		System.out.println(_localctx.getClass());
+		System.out.println("the state is " + getState());
+		System.out.println("the parent is " + _localctx.parent.getClass());
 		System.out.println(_localctx.children.size());
 		for (int i = 0; i < _localctx.children.size(); i++)
 			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.println(_localctx.children.get(i).getClass());
 		System.out.println();
 		return _localctx;
 	}
@@ -3873,9 +3893,14 @@ public class SqlBaseParser extends Parser {
 		}
 		System.out.println("-------------------------------");
 		System.out.println(_localctx.getClass());
+		System.out.println("the state is " + getState());
+		System.out.println("the parent is " + _localctx.parent.getClass());
 		System.out.println(_localctx.children.size());
 		for (int i = 0; i < _localctx.children.size(); i++)
 			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.println(_localctx.children.get(i).getClass());
 		System.out.println();
 		return _localctx;
 	}
@@ -4606,9 +4631,14 @@ public class SqlBaseParser extends Parser {
 		}
 		System.out.println("-------------------------------");
 		System.out.println(_localctx.getClass());
+		System.out.println("the state is " + getState());
+		System.out.println("the parent is " + _localctx.parent.getClass());
 		System.out.println(_localctx.children.size());
 		for (int i = 0; i < _localctx.children.size(); i++)
 			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.println(_localctx.children.get(i).getClass());
 		System.out.println();
 		return _localctx;
 	}
@@ -4702,9 +4732,14 @@ public class SqlBaseParser extends Parser {
 		}
 		System.out.println("-------------------------------");
 		System.out.println(_localctx.getClass());
+		System.out.println("the state is " + getState());
+		System.out.println("the parent is " + _localctx.parent.getClass());
 		System.out.println(_localctx.children.size());
 		for (int i = 0; i < _localctx.children.size(); i++)
 			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.println(_localctx.children.get(i).getClass());
 		System.out.println();
 		return _localctx;
 	}
@@ -4789,9 +4824,14 @@ public class SqlBaseParser extends Parser {
 		}
 		System.out.println("-------------------------------");
 		System.out.println(_localctx.getClass());
+		System.out.println("the state is " + getState());
+		System.out.println("the parent is " + _localctx.parent.getClass());
 		System.out.println(_localctx.children.size());
 		for (int i = 0; i < _localctx.children.size(); i++)
 			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.println(_localctx.children.get(i).getClass());
 		System.out.println();
 		return _localctx;
 	}
@@ -4887,9 +4927,14 @@ public class SqlBaseParser extends Parser {
 		}
 		System.out.println("-------------------------------");
 		System.out.println(_localctx.getClass());
+		System.out.println("the state is " + getState());
+		System.out.println("the parent is " + _localctx.parent.getClass());
 		System.out.println(_localctx.children.size());
 		for (int i = 0; i < _localctx.children.size(); i++)
 			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.println(_localctx.children.get(i).getClass());
 		System.out.println();
 		return _localctx;
 	}
@@ -4938,9 +4983,14 @@ public class SqlBaseParser extends Parser {
 		}
 		System.out.println("-------------------------------");
 		System.out.println(_localctx.getClass());
+		System.out.println("the state is " + getState());
+		System.out.println("the parent is " + _localctx.parent.getClass());
 		System.out.println(_localctx.children.size());
 		for (int i = 0; i < _localctx.children.size(); i++)
 			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.println(_localctx.children.get(i).getClass());
 		System.out.println();
 		return _localctx;
 	}
@@ -5002,9 +5052,14 @@ public class SqlBaseParser extends Parser {
 		}
 		System.out.println("-------------------------------");
 		System.out.println(_localctx.getClass());
+		System.out.println("the state is " + getState());
+		System.out.println("the parent is " + _localctx.parent.getClass());
 		System.out.println(_localctx.children.size());
 		for (int i = 0; i < _localctx.children.size(); i++)
 			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.println(_localctx.children.get(i).getClass());
 		System.out.println();
 		return _localctx;
 	}
@@ -5130,9 +5185,14 @@ public class SqlBaseParser extends Parser {
 		}
 		System.out.println("-------------------------------");
 		System.out.println(_localctx.getClass());
+		System.out.println("the state is " + getState());
+		System.out.println("the parent is " + _localctx.parent.getClass());
 		System.out.println(_localctx.children.size());
 		for (int i = 0; i < _localctx.children.size(); i++)
 			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.println(_localctx.children.get(i).getClass());
 		System.out.println();
 		return _localctx;
 	}
@@ -5194,9 +5254,14 @@ public class SqlBaseParser extends Parser {
 		}
 		System.out.println("-------------------------------");
 		System.out.println(_localctx.getClass());
+		System.out.println("the state is " + getState());
+		System.out.println("the parent is " + _localctx.parent.getClass());
 		System.out.println(_localctx.children.size());
 		for (int i = 0; i < _localctx.children.size(); i++)
 			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.println(_localctx.children.get(i).getClass());
 		System.out.println();
 		return _localctx;
 	}
@@ -5271,9 +5336,14 @@ public class SqlBaseParser extends Parser {
 		}
 		System.out.println("-------------------------------");
 		System.out.println(_localctx.getClass());
+		System.out.println("the state is " + getState());
+		System.out.println("the parent is " + _localctx.parent.getClass());
 		System.out.println(_localctx.children.size());
 		for (int i = 0; i < _localctx.children.size(); i++)
 			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.println(_localctx.children.get(i).getClass());
 		System.out.println();
 		return _localctx;
 	}
@@ -5338,9 +5408,14 @@ public class SqlBaseParser extends Parser {
 		}
 		System.out.println("-------------------------------");
 		System.out.println(_localctx.getClass());
+		System.out.println("the state is " + getState());
+		System.out.println("the parent is " + _localctx.parent.getClass());
 		System.out.println(_localctx.children.size());
 		for (int i = 0; i < _localctx.children.size(); i++)
 			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.println(_localctx.children.get(i).getClass());
 		System.out.println();
 		return _localctx;
 	}
@@ -5432,9 +5507,14 @@ public class SqlBaseParser extends Parser {
 		}
 		System.out.println("-------------------------------");
 		System.out.println(_localctx.getClass());
+		System.out.println("the state is " + getState());
+		System.out.println("the parent is " + _localctx.parent.getClass());
 		System.out.println(_localctx.children.size());
 		for (int i = 0; i < _localctx.children.size(); i++)
 			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.println(_localctx.children.get(i).getClass());
 		System.out.println();
 		return _localctx;
 	}
@@ -5725,9 +5805,14 @@ public class SqlBaseParser extends Parser {
 		}
 		System.out.println("-------------------------------");
 		System.out.println(_localctx.getClass());
+		System.out.println("the state is " + getState());
+		System.out.println("the parent is " + _localctx.parent.getClass());
 		System.out.println(_localctx.children.size());
 		for (int i = 0; i < _localctx.children.size(); i++)
 			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.println(_localctx.children.get(i).getClass());
 		System.out.println();
 		return _localctx;
 	}
@@ -5798,9 +5883,14 @@ public class SqlBaseParser extends Parser {
 		}
 		System.out.println("-------------------------------");
 		System.out.println(_localctx.getClass());
+		System.out.println("the state is " + getState());
+		System.out.println("the parent is " + _localctx.parent.getClass());
 		System.out.println(_localctx.children.size());
 		for (int i = 0; i < _localctx.children.size(); i++)
 			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.println(_localctx.children.get(i).getClass());
 		System.out.println();
 		return _localctx;
 	}
@@ -5870,9 +5960,14 @@ public class SqlBaseParser extends Parser {
 		}
 		System.out.println("-------------------------------");
 		System.out.println(_localctx.getClass());
+		System.out.println("the state is " + getState());
+		System.out.println("the parent is " + _localctx.parent.getClass());
 		System.out.println(_localctx.children.size());
 		for (int i = 0; i < _localctx.children.size(); i++)
 			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.println(_localctx.children.get(i).getClass());
 		System.out.println();
 		return _localctx;
 	}
@@ -5923,9 +6018,14 @@ public class SqlBaseParser extends Parser {
 		}
 		System.out.println("-------------------------------");
 		System.out.println(_localctx.getClass());
+		System.out.println("the state is " + getState());
+		System.out.println("the parent is " + _localctx.parent.getClass());
 		System.out.println(_localctx.children.size());
 		for (int i = 0; i < _localctx.children.size(); i++)
 			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.println(_localctx.children.get(i).getClass());
 		System.out.println();
 		return _localctx;
 	}
@@ -5997,9 +6097,14 @@ public class SqlBaseParser extends Parser {
 		}
 		System.out.println("-------------------------------");
 		System.out.println(_localctx.getClass());
+		System.out.println("the state is " + getState());
+		System.out.println("the parent is " + _localctx.parent.getClass());
 		System.out.println(_localctx.children.size());
 		for (int i = 0; i < _localctx.children.size(); i++)
 			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.println(_localctx.children.get(i).getClass());
 		System.out.println();
 		return _localctx;
 	}
@@ -6074,9 +6179,14 @@ public class SqlBaseParser extends Parser {
 		}
 		System.out.println("-------------------------------");
 		System.out.println(_localctx.getClass());
+		System.out.println("the state is " + getState());
+		System.out.println("the parent is " + _localctx.parent.getClass());
 		System.out.println(_localctx.children.size());
 		for (int i = 0; i < _localctx.children.size(); i++)
 			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.println(_localctx.children.get(i).getClass());
 		System.out.println();
 		return _localctx;
 	}
@@ -6363,9 +6473,14 @@ public class SqlBaseParser extends Parser {
 		}
 		System.out.println("-------------------------------");
 		System.out.println(_localctx.getClass());
+		System.out.println("the state is " + getState());
+		System.out.println("the parent is " + _localctx.parent.getClass());
 		System.out.println(_localctx.children.size());
 		for (int i = 0; i < _localctx.children.size(); i++)
 			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.println(_localctx.children.get(i).getClass());
 		System.out.println();
 		return _localctx;
 	}
@@ -6446,9 +6561,14 @@ public class SqlBaseParser extends Parser {
 		}
 		System.out.println("-------------------------------");
 		System.out.println(_localctx.getClass());
+		System.out.println("the state is " + getState());
+		System.out.println("the parent is " + _localctx.parent.getClass());
 		System.out.println(_localctx.children.size());
 		for (int i = 0; i < _localctx.children.size(); i++)
 			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.println(_localctx.children.get(i).getClass());
 		System.out.println();
 		return _localctx;
 	}
@@ -6520,9 +6640,14 @@ public class SqlBaseParser extends Parser {
 		}
 		System.out.println("-------------------------------");
 		System.out.println(_localctx.getClass());
+		System.out.println("the state is " + getState());
+		System.out.println("the parent is " + _localctx.parent.getClass());
 		System.out.println(_localctx.children.size());
 		for (int i = 0; i < _localctx.children.size(); i++)
 			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.println(_localctx.children.get(i).getClass());
 		System.out.println();
 		return _localctx;
 	}
@@ -6594,9 +6719,14 @@ public class SqlBaseParser extends Parser {
 		}
 		System.out.println("-------------------------------");
 		System.out.println(_localctx.getClass());
+		System.out.println("the state is " + getState());
+		System.out.println("the parent is " + _localctx.parent.getClass());
 		System.out.println(_localctx.children.size());
 		for (int i = 0; i < _localctx.children.size(); i++)
 			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.println(_localctx.children.get(i).getClass());
 		System.out.println();
 		return _localctx;
 	}
@@ -6671,9 +6801,14 @@ public class SqlBaseParser extends Parser {
 		}
 		System.out.println("-------------------------------");
 		System.out.println(_localctx.getClass());
+		System.out.println("the state is " + getState());
+		System.out.println("the parent is " + _localctx.parent.getClass());
 		System.out.println(_localctx.children.size());
 		for (int i = 0; i < _localctx.children.size(); i++)
 			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.println(_localctx.children.get(i).getClass());
 		System.out.println();
 		return _localctx;
 	}
@@ -6774,9 +6909,14 @@ public class SqlBaseParser extends Parser {
 		}
 		System.out.println("-------------------------------");
 		System.out.println(_localctx.getClass());
+		System.out.println("the state is " + getState());
+		System.out.println("the parent is " + _localctx.parent.getClass());
 		System.out.println(_localctx.children.size());
 		for (int i = 0; i < _localctx.children.size(); i++)
 			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.println(_localctx.children.get(i).getClass());
 		System.out.println();
 		return _localctx;
 	}
@@ -6841,9 +6981,14 @@ public class SqlBaseParser extends Parser {
 		}
 		System.out.println("-------------------------------");
 		System.out.println(_localctx.getClass());
+		System.out.println("the state is " + getState());
+		System.out.println("the parent is " + _localctx.parent.getClass());
 		System.out.println(_localctx.children.size());
 		for (int i = 0; i < _localctx.children.size(); i++)
 			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.println(_localctx.children.get(i).getClass());
 		System.out.println();
 		return _localctx;
 	}
@@ -6894,9 +7039,14 @@ public class SqlBaseParser extends Parser {
 		}
 		System.out.println("-------------------------------");
 		System.out.println(_localctx.getClass());
+		System.out.println("the state is " + getState());
+		System.out.println("the parent is " + _localctx.parent.getClass());
 		System.out.println(_localctx.children.size());
 		for (int i = 0; i < _localctx.children.size(); i++)
 			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.println(_localctx.children.get(i).getClass());
 		System.out.println();
 		return _localctx;
 	}
@@ -7025,9 +7175,14 @@ public class SqlBaseParser extends Parser {
 		}
 		System.out.println("-------------------------------");
 		System.out.println(_localctx.getClass());
+		System.out.println("the state is " + getState());
+		System.out.println("the parent is " + _localctx.parent.getClass());
 		System.out.println(_localctx.children.size());
 		for (int i = 0; i < _localctx.children.size(); i++)
 			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.println(_localctx.children.get(i).getClass());
 		System.out.println();
 		return _localctx;
 	}
@@ -7252,9 +7407,14 @@ public class SqlBaseParser extends Parser {
 		}
 		System.out.println("-------------------------------");
 		System.out.println(_localctx.getClass());
+		System.out.println("the state is " + getState());
+		System.out.println("the parent is " + _localctx.parent.getClass());
 		System.out.println(_localctx.children.size());
 		for (int i = 0; i < _localctx.children.size(); i++)
 			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.println(_localctx.children.get(i).getClass());
 		System.out.println();
 		return _localctx;
 	}
@@ -7321,9 +7481,14 @@ public class SqlBaseParser extends Parser {
 		}
 		System.out.println("-------------------------------");
 		System.out.println(_localctx.getClass());
+		System.out.println("the state is " + getState());
+		System.out.println("the parent is " + _localctx.parent.getClass());
 		System.out.println(_localctx.children.size());
 		for (int i = 0; i < _localctx.children.size(); i++)
 			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.println(_localctx.children.get(i).getClass());
 		System.out.println();
 		return _localctx;
 	}
@@ -7472,9 +7637,14 @@ public class SqlBaseParser extends Parser {
 		}
 		System.out.println("-------------------------------");
 		System.out.println(_localctx.getClass());
+		System.out.println("the state is " + getState());
+		System.out.println("the parent is " + _localctx.parent.getClass());
 		System.out.println(_localctx.children.size());
 		for (int i = 0; i < _localctx.children.size(); i++)
 			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.println(_localctx.children.get(i).getClass());
 		System.out.println();
 		return _localctx;
 	}
@@ -7630,9 +7800,14 @@ public class SqlBaseParser extends Parser {
 		}
 		System.out.println("-------------------------------");
 		System.out.println(_localctx.getClass());
+		System.out.println("the state is " + getState());
+		System.out.println("the parent is " + _localctx.parent.getClass());
 		System.out.println(_localctx.children.size());
 		for (int i = 0; i < _localctx.children.size(); i++)
 			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.println(_localctx.children.get(i).getClass());
 		System.out.println();
 		return _localctx;
 	}
@@ -7728,9 +7903,14 @@ public class SqlBaseParser extends Parser {
 		}
 		System.out.println("-------------------------------");
 		System.out.println(_localctx.getClass());
+		System.out.println("the state is " + getState());
+		System.out.println("the parent is " + _localctx.parent.getClass());
 		System.out.println(_localctx.children.size());
 		for (int i = 0; i < _localctx.children.size(); i++)
 			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.println(_localctx.children.get(i).getClass());
 		System.out.println();
 		return _localctx;
 	}
@@ -8133,9 +8313,14 @@ public class SqlBaseParser extends Parser {
 		}
 		System.out.println("-------------------------------");
 		System.out.println(_localctx.getClass());
+		System.out.println("the state is " + getState());
+		System.out.println("the parent is " + _localctx.parent.getClass());
 		System.out.println(_localctx.children.size());
 		for (int i = 0; i < _localctx.children.size(); i++)
 			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.println(_localctx.children.get(i).getClass());
 		System.out.println();
 		return _localctx;
 	}
@@ -8230,9 +8415,14 @@ public class SqlBaseParser extends Parser {
 		}
 		System.out.println("-------------------------------");
 		System.out.println(_localctx.getClass());
+		System.out.println("the state is " + getState());
+		System.out.println("the parent is " + _localctx.parent.getClass());
 		System.out.println(_localctx.children.size());
 		for (int i = 0; i < _localctx.children.size(); i++)
 			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.println(_localctx.children.get(i).getClass());
 		System.out.println();
 		return _localctx;
 	}
@@ -8375,9 +8565,14 @@ public class SqlBaseParser extends Parser {
 		}
 		System.out.println("-------------------------------");
 		System.out.println(_localctx.getClass());
+		System.out.println("the state is " + getState());
+		System.out.println("the parent is " + _localctx.parent.getClass());
 		System.out.println(_localctx.children.size());
 		for (int i = 0; i < _localctx.children.size(); i++)
 			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.println(_localctx.children.get(i).getClass());
 		System.out.println();
 		return _localctx;
 	}
@@ -8470,9 +8665,14 @@ public class SqlBaseParser extends Parser {
 		}
 		System.out.println("-------------------------------");
 		System.out.println(_localctx.getClass());
+		System.out.println("the state is " + getState());
+		System.out.println("the parent is " + _localctx.parent.getClass());
 		System.out.println(_localctx.children.size());
 		for (int i = 0; i < _localctx.children.size(); i++)
 			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.println(_localctx.children.get(i).getClass());
 		System.out.println();
 		return _localctx;
 	}
@@ -8627,9 +8827,14 @@ public class SqlBaseParser extends Parser {
 		}
 		System.out.println("-------------------------------");
 		System.out.println(_localctx.getClass());
+		System.out.println("the state is " + getState());
+		System.out.println("the parent is " + _localctx.parent.getClass());
 		System.out.println(_localctx.children.size());
 		for (int i = 0; i < _localctx.children.size(); i++)
 			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.println(_localctx.children.get(i).getClass());
 		System.out.println();
 		return _localctx;
 	}
@@ -8685,9 +8890,14 @@ public class SqlBaseParser extends Parser {
 		}
 		System.out.println("-------------------------------");
 		System.out.println(_localctx.getClass());
+		System.out.println("the state is " + getState());
+		System.out.println("the parent is " + _localctx.parent.getClass());
 		System.out.println(_localctx.children.size());
 		for (int i = 0; i < _localctx.children.size(); i++)
 			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.println(_localctx.children.get(i).getClass());
 		System.out.println();
 		return _localctx;
 	}
@@ -8758,9 +8968,14 @@ public class SqlBaseParser extends Parser {
 		}
 		System.out.println("-------------------------------");
 		System.out.println(_localctx.getClass());
+		System.out.println("the state is " + getState());
+		System.out.println("the parent is " + _localctx.parent.getClass());
 		System.out.println(_localctx.children.size());
 		for (int i = 0; i < _localctx.children.size(); i++)
 			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.println(_localctx.children.get(i).getClass());
 		System.out.println();
 		return _localctx;
 	}
@@ -8860,9 +9075,14 @@ public class SqlBaseParser extends Parser {
 		}
 		System.out.println("-------------------------------");
 		System.out.println(_localctx.getClass());
+		System.out.println("the state is " + getState());
+		System.out.println("the parent is " + _localctx.parent.getClass());
 		System.out.println(_localctx.children.size());
 		for (int i = 0; i < _localctx.children.size(); i++)
 			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.println(_localctx.children.get(i).getClass());
 		System.out.println();
 		return _localctx;
 	}
@@ -9014,9 +9234,14 @@ public class SqlBaseParser extends Parser {
 		}
 		System.out.println("-------------------------------");
 		System.out.println(_localctx.getClass());
+		System.out.println("the state is " + getState());
+		System.out.println("the parent is " + _localctx.parent.getClass());
 		System.out.println(_localctx.children.size());
 		for (int i = 0; i < _localctx.children.size(); i++)
 			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.println(_localctx.children.get(i).getClass());
 		System.out.println();
 		return _localctx;
 	}
@@ -9112,9 +9337,14 @@ public class SqlBaseParser extends Parser {
 		}
 		System.out.println("-------------------------------");
 		System.out.println(_localctx.getClass());
+		System.out.println("the state is " + getState());
+		System.out.println("the parent is " + _localctx.parent.getClass());
 		System.out.println(_localctx.children.size());
 		for (int i = 0; i < _localctx.children.size(); i++)
 			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.println(_localctx.children.get(i).getClass());
 		System.out.println();
 		return _localctx;
 	}
@@ -9275,9 +9505,14 @@ public class SqlBaseParser extends Parser {
 		}
 		System.out.println("-------------------------------");
 		System.out.println(_localctx.getClass());
+		System.out.println("the state is " + getState());
+		System.out.println("the parent is " + _localctx.parent.getClass());
 		System.out.println(_localctx.children.size());
 		for (int i = 0; i < _localctx.children.size(); i++)
 			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.println(_localctx.children.get(i).getClass());
 		System.out.println();
 		return _localctx;
 	}
@@ -9329,9 +9564,14 @@ public class SqlBaseParser extends Parser {
 		}
 		System.out.println("-------------------------------");
 		System.out.println(_localctx.getClass());
+		System.out.println("the state is " + getState());
+		System.out.println("the parent is " + _localctx.parent.getClass());
 		System.out.println(_localctx.children.size());
 		for (int i = 0; i < _localctx.children.size(); i++)
 			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.println(_localctx.children.get(i).getClass());
 		System.out.println();
 		return _localctx;
 	}
@@ -9401,9 +9641,14 @@ public class SqlBaseParser extends Parser {
 		}
 		System.out.println("-------------------------------");
 		System.out.println(_localctx.getClass());
+		System.out.println("the state is " + getState());
+		System.out.println("the parent is " + _localctx.parent.getClass());
 		System.out.println(_localctx.children.size());
 		for (int i = 0; i < _localctx.children.size(); i++)
 			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.println(_localctx.children.get(i).getClass());
 		System.out.println();
 		return _localctx;
 	}
@@ -9475,9 +9720,14 @@ public class SqlBaseParser extends Parser {
 		}
 		System.out.println("-------------------------------");
 		System.out.println(_localctx.getClass());
+		System.out.println("the state is " + getState());
+		System.out.println("the parent is " + _localctx.parent.getClass());
 		System.out.println(_localctx.children.size());
 		for (int i = 0; i < _localctx.children.size(); i++)
 			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.println(_localctx.children.get(i).getClass());
 		System.out.println();
 		return _localctx;
 	}
@@ -9548,9 +9798,14 @@ public class SqlBaseParser extends Parser {
 		}
 		System.out.println("-------------------------------");
 		System.out.println(_localctx.getClass());
+		System.out.println("the state is " + getState());
+		System.out.println("the parent is " + _localctx.parent.getClass());
 		System.out.println(_localctx.children.size());
 		for (int i = 0; i < _localctx.children.size(); i++)
 			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.println(_localctx.children.get(i).getClass());
 		System.out.println();
 		return _localctx;
 	}
@@ -9622,9 +9877,14 @@ public class SqlBaseParser extends Parser {
 		}
 		System.out.println("-------------------------------");
 		System.out.println(_localctx.getClass());
+		System.out.println("the state is " + getState());
+		System.out.println("the parent is " + _localctx.parent.getClass());
 		System.out.println(_localctx.children.size());
 		for (int i = 0; i < _localctx.children.size(); i++)
 			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.println(_localctx.children.get(i).getClass());
 		System.out.println();
 		return _localctx;
 	}
@@ -9687,9 +9947,14 @@ public class SqlBaseParser extends Parser {
 		}
 		System.out.println("-------------------------------");
 		System.out.println(_localctx.getClass());
+		System.out.println("the state is " + getState());
+		System.out.println("the parent is " + _localctx.parent.getClass());
 		System.out.println(_localctx.children.size());
 		for (int i = 0; i < _localctx.children.size(); i++)
 			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.println(_localctx.children.get(i).getClass());
 		System.out.println();
 		return _localctx;
 	}
@@ -10016,9 +10281,14 @@ public class SqlBaseParser extends Parser {
 		}
 		System.out.println("-------------------------------");
 		System.out.println(_localctx.getClass());
+		System.out.println("the state is " + getState());
+		System.out.println("the parent is " + _localctx.parent.getClass());
 		System.out.println(_localctx.children.size());
 		for (int i = 0; i < _localctx.children.size(); i++)
 			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.println(_localctx.children.get(i).getClass());
 		System.out.println();
 		return _localctx;
 	}
@@ -10128,9 +10398,14 @@ public class SqlBaseParser extends Parser {
 		}
 		System.out.println("-------------------------------");
 		System.out.println(_localctx.getClass());
+		System.out.println("the state is " + getState());
+		System.out.println("the parent is " + _localctx.parent.getClass());
 		System.out.println(_localctx.children.size());
 		for (int i = 0; i < _localctx.children.size(); i++)
 			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.println(_localctx.children.get(i).getClass());
 		System.out.println();
 		return _localctx;
 	}
@@ -10378,9 +10653,14 @@ public class SqlBaseParser extends Parser {
 		}
 		System.out.println("-------------------------------");
 		System.out.println(_localctx.getClass());
+		System.out.println("the state is " + getState());
+		System.out.println("the parent is " + _localctx.parent.getClass());
 		System.out.println(_localctx.children.size());
 		for (int i = 0; i < _localctx.children.size(); i++)
 			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.println(_localctx.children.get(i).getClass());
 		System.out.println();
 		return _localctx;
 	}
@@ -10445,9 +10725,14 @@ public class SqlBaseParser extends Parser {
 		}
 		System.out.println("-------------------------------");
 		System.out.println(_localctx.getClass());
+		System.out.println("the state is " + getState());
+		System.out.println("the parent is " + _localctx.parent.getClass());
 		System.out.println(_localctx.children.size());
 		for (int i = 0; i < _localctx.children.size(); i++)
 			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.println(_localctx.children.get(i).getClass());
 		System.out.println();
 		return _localctx;
 	}
@@ -10741,9 +11026,14 @@ public class SqlBaseParser extends Parser {
 		}
 		System.out.println("-------------------------------");
 		System.out.println(_localctx.getClass());
+		System.out.println("the state is " + getState());
+		System.out.println("the parent is " + _localctx.parent.getClass());
 		System.out.println(_localctx.children.size());
 		for (int i = 0; i < _localctx.children.size(); i++)
 			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.println(_localctx.children.get(i).getClass());
 		System.out.println();
 		return _localctx;
 	}
@@ -10813,9 +11103,14 @@ public class SqlBaseParser extends Parser {
 		}
 		System.out.println("-------------------------------");
 		System.out.println(_localctx.getClass());
+		System.out.println("the state is " + getState());
+		System.out.println("the parent is " + _localctx.parent.getClass());
 		System.out.println(_localctx.children.size());
 		for (int i = 0; i < _localctx.children.size(); i++)
 			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.println(_localctx.children.get(i).getClass());
 		System.out.println();
 		return _localctx;
 	}
@@ -10863,9 +11158,14 @@ public class SqlBaseParser extends Parser {
 		}
 		System.out.println("-------------------------------");
 		System.out.println(_localctx.getClass());
+		System.out.println("the state is " + getState());
+		System.out.println("the parent is " + _localctx.parent.getClass());
 		System.out.println(_localctx.children.size());
 		for (int i = 0; i < _localctx.children.size(); i++)
 			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.println(_localctx.children.get(i).getClass());
 		System.out.println();
 		return _localctx;
 	}
@@ -11080,9 +11380,14 @@ public class SqlBaseParser extends Parser {
 		}
 		System.out.println("-------------------------------");
 		System.out.println(_localctx.getClass());
+		System.out.println("the state is " + getState());
+		System.out.println("the parent is " + _localctx.parent.getClass());
 		System.out.println(_localctx.children.size());
 		for (int i = 0; i < _localctx.children.size(); i++)
 			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.println(_localctx.children.get(i).getClass());
 		System.out.println();
 		return _localctx;
 	}
@@ -11143,9 +11448,14 @@ public class SqlBaseParser extends Parser {
 		}
 		System.out.println("-------------------------------");
 		System.out.println(_localctx.getClass());
+		System.out.println("the state is " + getState());
+		System.out.println("the parent is " + _localctx.parent.getClass());
 		System.out.println(_localctx.children.size());
 		for (int i = 0; i < _localctx.children.size(); i++)
 			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.println(_localctx.children.get(i).getClass());
 		System.out.println();
 		return _localctx;
 	}
@@ -11349,9 +11659,14 @@ public class SqlBaseParser extends Parser {
 		}
 		System.out.println("-------------------------------");
 		System.out.println(_localctx.getClass());
+		System.out.println("the state is " + getState());
+		System.out.println("the parent is " + _localctx.parent.getClass());
 		System.out.println(_localctx.children.size());
 		for (int i = 0; i < _localctx.children.size(); i++)
 			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.println(_localctx.children.get(i).getClass());
 		System.out.println();
 		return _localctx;
 	}
@@ -11662,9 +11977,14 @@ public class SqlBaseParser extends Parser {
 		}
 		System.out.println("-------------------------------");
 		System.out.println(_localctx.getClass());
+		System.out.println("the state is " + getState());
+		System.out.println("the parent is " + _localctx.parent.getClass());
 		System.out.println(_localctx.children.size());
 		for (int i = 0; i < _localctx.children.size(); i++)
 			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.println(_localctx.children.get(i).getClass());
 		System.out.println();
 		return _localctx;
 	}
@@ -12333,9 +12653,14 @@ public class SqlBaseParser extends Parser {
 		}
 		System.out.println("-------------------------------");
 		System.out.println(_localctx.getClass());
+		System.out.println("the state is " + getState());
+		System.out.println("the parent is " + _localctx.parent.getClass());
 		System.out.println(_localctx.children.size());
 		for (int i = 0; i < _localctx.children.size(); i++)
 			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.println(_localctx.children.get(i).getClass());
 		System.out.println();
 		return _localctx;
 	}
@@ -12554,9 +12879,14 @@ public class SqlBaseParser extends Parser {
 		}
 		System.out.println("-------------------------------");
 		System.out.println(_localctx.getClass());
+		System.out.println("the state is " + getState());
+		System.out.println("the parent is " + _localctx.parent.getClass());
 		System.out.println(_localctx.children.size());
 		for (int i = 0; i < _localctx.children.size(); i++)
 			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.println(_localctx.children.get(i).getClass());
 		System.out.println();
 		return _localctx;
 	}
@@ -12618,9 +12948,14 @@ public class SqlBaseParser extends Parser {
 		}
 		System.out.println("-------------------------------");
 		System.out.println(_localctx.getClass());
+		System.out.println("the state is " + getState());
+		System.out.println("the parent is " + _localctx.parent.getClass());
 		System.out.println(_localctx.children.size());
 		for (int i = 0; i < _localctx.children.size(); i++)
 			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.println(_localctx.children.get(i).getClass());
 		System.out.println();
 		return _localctx;
 	}
@@ -12685,9 +13020,14 @@ public class SqlBaseParser extends Parser {
 		}
 		System.out.println("-------------------------------");
 		System.out.println(_localctx.getClass());
+		System.out.println("the state is " + getState());
+		System.out.println("the parent is " + _localctx.parent.getClass());
 		System.out.println(_localctx.children.size());
 		for (int i = 0; i < _localctx.children.size(); i++)
 			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.println(_localctx.children.get(i).getClass());
 		System.out.println();
 		return _localctx;
 	}
@@ -12745,9 +13085,14 @@ public class SqlBaseParser extends Parser {
 		}
 		System.out.println("-------------------------------");
 		System.out.println(_localctx.getClass());
+		System.out.println("the state is " + getState());
+		System.out.println("the parent is " + _localctx.parent.getClass());
 		System.out.println(_localctx.children.size());
 		for (int i = 0; i < _localctx.children.size(); i++)
 			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.println(_localctx.children.get(i).getClass());
 		System.out.println();
 		return _localctx;
 	}
@@ -12803,9 +13148,14 @@ public class SqlBaseParser extends Parser {
 		}
 		System.out.println("-------------------------------");
 		System.out.println(_localctx.getClass());
+		System.out.println("the state is " + getState());
+		System.out.println("the parent is " + _localctx.parent.getClass());
 		System.out.println(_localctx.children.size());
 		for (int i = 0; i < _localctx.children.size(); i++)
 			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.println(_localctx.children.get(i).getClass());
 		System.out.println();
 		return _localctx;
 	}
@@ -12874,9 +13224,14 @@ public class SqlBaseParser extends Parser {
 		}
 		System.out.println("-------------------------------");
 		System.out.println(_localctx.getClass());
+		System.out.println("the state is " + getState());
+		System.out.println("the parent is " + _localctx.parent.getClass());
 		System.out.println(_localctx.children.size());
 		for (int i = 0; i < _localctx.children.size(); i++)
 			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.println(_localctx.children.get(i).getClass());
 		System.out.println();
 		return _localctx;
 	}
@@ -12948,9 +13303,14 @@ public class SqlBaseParser extends Parser {
 		}
 		System.out.println("-------------------------------");
 		System.out.println(_localctx.getClass());
+		System.out.println("the state is " + getState());
+		System.out.println("the parent is " + _localctx.parent.getClass());
 		System.out.println(_localctx.children.size());
 		for (int i = 0; i < _localctx.children.size(); i++)
 			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.println(_localctx.children.get(i).getClass());
 		System.out.println();
 		return _localctx;
 	}
@@ -13045,9 +13405,14 @@ public class SqlBaseParser extends Parser {
 		}
 		System.out.println("-------------------------------");
 		System.out.println(_localctx.getClass());
+		System.out.println("the state is " + getState());
+		System.out.println("the parent is " + _localctx.parent.getClass());
 		System.out.println(_localctx.children.size());
 		for (int i = 0; i < _localctx.children.size(); i++)
 			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.println(_localctx.children.get(i).getClass());
 		System.out.println();
 		return _localctx;
 	}
@@ -13247,9 +13612,14 @@ public class SqlBaseParser extends Parser {
 		}
 		System.out.println("-------------------------------");
 		System.out.println(_localctx.getClass());
+		System.out.println("the state is " + getState());
+		System.out.println("the parent is " + _localctx.parent.getClass());
 		System.out.println(_localctx.children.size());
 		for (int i = 0; i < _localctx.children.size(); i++)
 			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.println(_localctx.children.get(i).getClass());
 		System.out.println();
 		return _localctx;
 	}
@@ -13319,9 +13689,14 @@ public class SqlBaseParser extends Parser {
 		}
 		System.out.println("-------------------------------");
 		System.out.println(_localctx.getClass());
+		System.out.println("the state is " + getState());
+		System.out.println("the parent is " + _localctx.parent.getClass());
 		System.out.println(_localctx.children.size());
 		for (int i = 0; i < _localctx.children.size(); i++)
 			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.println(_localctx.children.get(i).getClass());
 		System.out.println();
 		return _localctx;
 	}
@@ -13388,9 +13763,14 @@ public class SqlBaseParser extends Parser {
 		}
 		System.out.println("-------------------------------");
 		System.out.println(_localctx.getClass());
+		System.out.println("the state is " + getState());
+		System.out.println("the parent is " + _localctx.parent.getClass());
 		System.out.println(_localctx.children.size());
 		for (int i = 0; i < _localctx.children.size(); i++)
 			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.println(_localctx.children.get(i).getClass());
 		System.out.println();
 		return _localctx;
 	}
@@ -13458,9 +13838,14 @@ public class SqlBaseParser extends Parser {
 		}
 		System.out.println("-------------------------------");
 		System.out.println(_localctx.getClass());
+		System.out.println("the state is " + getState());
+		System.out.println("the parent is " + _localctx.parent.getClass());
 		System.out.println(_localctx.children.size());
 		for (int i = 0; i < _localctx.children.size(); i++)
 			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.println(_localctx.children.get(i).getClass());
 		System.out.println();
 		return _localctx;
 	}
@@ -13530,9 +13915,14 @@ public class SqlBaseParser extends Parser {
 		}
 		System.out.println("-------------------------------");
 		System.out.println(_localctx.getClass());
+		System.out.println("the state is " + getState());
+		System.out.println("the parent is " + _localctx.parent.getClass());
 		System.out.println(_localctx.children.size());
 		for (int i = 0; i < _localctx.children.size(); i++)
 			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.println(_localctx.children.get(i).getClass());
 		System.out.println();
 		return _localctx;
 	}
@@ -13593,9 +13983,14 @@ public class SqlBaseParser extends Parser {
 		}
 		System.out.println("-------------------------------");
 		System.out.println(_localctx.getClass());
+		System.out.println("the state is " + getState());
+		System.out.println("the parent is " + _localctx.parent.getClass());
 		System.out.println(_localctx.children.size());
 		for (int i = 0; i < _localctx.children.size(); i++)
 			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.println(_localctx.children.get(i).getClass());
 		System.out.println();
 		return _localctx;
 	}
@@ -13668,9 +14063,14 @@ public class SqlBaseParser extends Parser {
 		}
 		System.out.println("-------------------------------");
 		System.out.println(_localctx.getClass());
+		System.out.println("the state is " + getState());
+		System.out.println("the parent is " + _localctx.parent.getClass());
 		System.out.println(_localctx.children.size());
 		for (int i = 0; i < _localctx.children.size(); i++)
 			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.println(_localctx.children.get(i).getClass());
 		System.out.println();
 		return _localctx;
 	}
@@ -13726,9 +14126,14 @@ public class SqlBaseParser extends Parser {
 		}
 		System.out.println("-------------------------------");
 		System.out.println(_localctx.getClass());
+		System.out.println("the state is " + getState());
+		System.out.println("the parent is " + _localctx.parent.getClass());
 		System.out.println(_localctx.children.size());
 		for (int i = 0; i < _localctx.children.size(); i++)
 			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.println(_localctx.children.get(i).getClass());
 		System.out.println();
 		return _localctx;
 	}
@@ -14182,9 +14587,14 @@ public class SqlBaseParser extends Parser {
 		}
 		System.out.println("-------------------------------");
 		System.out.println(_localctx.getClass());
+		System.out.println("the state is " + getState());
+		System.out.println("the parent is " + _localctx.parent.getClass());
 		System.out.println(_localctx.children.size());
 		for (int i = 0; i < _localctx.children.size(); i++)
 			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.println(_localctx.children.get(i).getClass());
 		System.out.println();
 		return _localctx;
 	}
@@ -14289,9 +14699,14 @@ public class SqlBaseParser extends Parser {
 		}
 		System.out.println("-------------------------------");
 		System.out.println(_localctx.getClass());
+		System.out.println("the state is " + getState());
+		System.out.println("the parent is " + _localctx.parent.getClass());
 		System.out.println(_localctx.children.size());
 		for (int i = 0; i < _localctx.children.size(); i++)
 			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.println(_localctx.children.get(i).getClass());
 		System.out.println();
 		return _localctx;
 	}
@@ -14390,9 +14805,14 @@ public class SqlBaseParser extends Parser {
 		}
 		System.out.println("-------------------------------");
 		System.out.println(_localctx.getClass());
+		System.out.println("the state is " + getState());
+		System.out.println("the parent is " + _localctx.parent.getClass());
 		System.out.println(_localctx.children.size());
 		for (int i = 0; i < _localctx.children.size(); i++)
 			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.println(_localctx.children.get(i).getClass());
 		System.out.println();
 		return _localctx;
 	}
@@ -14462,9 +14882,14 @@ public class SqlBaseParser extends Parser {
 		}
 		System.out.println("-------------------------------");
 		System.out.println(_localctx.getClass());
+		System.out.println("the state is " + getState());
+		System.out.println("the parent is " + _localctx.parent.getClass());
 		System.out.println(_localctx.children.size());
 		for (int i = 0; i < _localctx.children.size(); i++)
 			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.println(_localctx.children.get(i).getClass());
 		System.out.println();
 		return _localctx;
 	}
@@ -14821,9 +15246,14 @@ public class SqlBaseParser extends Parser {
 		}
 		System.out.println("-------------------------------");
 		System.out.println(_localctx.getClass());
+		System.out.println("the state is " + getState());
+		System.out.println("the parent is " + _localctx.parent.getClass());
 		System.out.println(_localctx.children.size());
 		for (int i = 0; i < _localctx.children.size(); i++)
 			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.println(_localctx.children.get(i).getClass());
 		System.out.println();
 		return _localctx;
 	}
@@ -15111,9 +15541,14 @@ public class SqlBaseParser extends Parser {
 		}
 		System.out.println("-------------------------------");
 		System.out.println(_localctx.getClass());
+		System.out.println("the state is " + getState());
+		System.out.println("the parent is " + _localctx.parent.getClass());
 		System.out.println(_localctx.children.size());
 		for (int i = 0; i < _localctx.children.size(); i++)
 			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.println(_localctx.children.get(i).getClass());
 		System.out.println();
 		return _localctx;
 	}
@@ -15159,9 +15594,14 @@ public class SqlBaseParser extends Parser {
 		}
 		System.out.println("-------------------------------");
 		System.out.println(_localctx.getClass());
+		System.out.println("the state is " + getState());
+		System.out.println("the parent is " + _localctx.parent.getClass());
 		System.out.println(_localctx.children.size());
 		for (int i = 0; i < _localctx.children.size(); i++)
 			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.println(_localctx.children.get(i).getClass());
 		System.out.println();
 		return _localctx;
 	}
@@ -15450,9 +15890,14 @@ public class SqlBaseParser extends Parser {
 		}
 		System.out.println("-------------------------------");
 		System.out.println(_localctx.getClass());
+		System.out.println("the state is " + getState());
+		System.out.println("the parent is " + _localctx.parent.getClass());
 		System.out.println(_localctx.children.size());
 		for (int i = 0; i < _localctx.children.size(); i++)
 			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.println(_localctx.children.get(i).getClass());
 		System.out.println();
 		return _localctx;
 	}
@@ -15694,9 +16139,14 @@ public class SqlBaseParser extends Parser {
 		}
 		System.out.println("-------------------------------");
 		System.out.println(_localctx.getClass());
+		System.out.println("the state is " + getState());
+		System.out.println("the parent is " + _localctx.parent.getClass());
 		System.out.println(_localctx.children.size());
 		for (int i = 0; i < _localctx.children.size(); i++)
 			System.out.print(_localctx.children.get(i).getText() + " ");
+		System.out.println();
+		for (int i = 0; i < _localctx.children.size(); i++)
+			System.out.println(_localctx.children.get(i).getClass());
 		System.out.println();
 		return _localctx;
 	}

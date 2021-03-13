@@ -23,7 +23,8 @@ public class ParserDriver {
         } else {
             query = defaultQuery;
         }
-        System.out.println(String.format("The query is %s", query));
+        System.out.println("The query is:");
+        System.out.println(query);
         System.out.println("********************************************");
         SqlBaseLexer lexer = new SqlBaseLexer(new ANTLRInputStream(query.toUpperCase()));
 
@@ -43,7 +44,16 @@ public class ParserDriver {
         // 在这里，语法解释器parser 中的 SingleStatementContext 就是传入的 query 生成的 AST 的 root 节点
         // parser.singleStatement() 返回的就是 SingleStatementContext 的对象
 
-        parser.singleStatement();
-        // visitor.visitSingleStatement(parser.singleStatement());
+        // 在 语法解释器parser 中的每一个 Context 里
+        // 如果 xyz语法规则 不包含分支，那么会在 context 里重构 enterRule exitRule accept 和 getRuleIndex 4个方法
+        // 如果 xyz语法规则 包含分支，那么在 context 里重构 getRuleIndex 方法
+        // 在 分支里 重构 enterRule exitRule accept 方法
+        // enterRule exitRule 是用于 listener 模式，所以在这里不用管
+        // accept 用于 visitor 模式
+
+        SqlBaseParser.SingleStatementContext  singleStatementContext = parser.singleStatement();
+
+        System.out.println("****************************");
+        visitor.visitSingleStatement(singleStatementContext);
     }
 }
