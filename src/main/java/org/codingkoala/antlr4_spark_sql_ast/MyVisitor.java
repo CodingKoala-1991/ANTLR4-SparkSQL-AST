@@ -3,8 +3,14 @@ package org.codingkoala.antlr4_spark_sql_ast;
 public class MyVisitor extends SqlBaseBaseVisitor<String>{
 
     public String visitSingleStatement(SqlBaseParser.SingleStatementContext ctx) {
-        System.out.println("visitSingleStatement");
-        return visitChildren(ctx);
+//        System.out.println("visitSingleStatement");
+//        System.out.println(ctx.statement().getClass() + "????");
+//        String res = visitChildren(ctx);
+//        return res;
+
+        System.out.println("????");
+        return visit(ctx.statement());
+        // return visitChildren(ctx);
     }
 
     public String visitSingleExpression(SqlBaseParser.SingleExpressionContext ctx) {

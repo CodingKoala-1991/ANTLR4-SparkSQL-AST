@@ -16,8 +16,8 @@ public class ParserDriver {
 
         // String query = "(select a, b, c from tables";
         // String query = "select * from xxx where yy = 'z'";
-        String defaultQuery = "select a, b, c from x";
-        String query = null;
+        String defaultQuery = "select a, b, c from x where a > 100";
+        String query;
         if (args.length > 0) {
             query = args[0];
         } else {
@@ -27,12 +27,20 @@ public class ParserDriver {
         System.out.println("********************************************");
         SqlBaseLexer lexer = new SqlBaseLexer(new ANTLRInputStream(query.toUpperCase()));
 
-//        String text = lexer.getToken();
-//        System.out.println(text);
-////        SqlBaseParser parser = new SqlBaseParser(new CommonTokenStream(lexer));
-//        MyVisitor visitor = new MyVisitor();
-//        // SqlBaseBaseVisitor visitor = new SqlBaseBaseVisitor();
-//        String res = visitor.visitSingleStatement(parser.singleStatement());
-//        System.out.println("res="+res);
+        // String text = lexer.getToken();
+        // System.out.println(text);
+        SqlBaseParser parser = new SqlBaseParser(new CommonTokenStream(lexer));
+        MyVisitor visitor = new MyVisitor();
+
+        // 在 g4 文件中
+        // 小写 xyz 是一个规则
+        // 如果 xyz 规则 不带有 分支#，就会在 visitor 中生成 visitXyz() 方法
+        // 如果 xyz 规则 带有 分支#，每一个分支 都会在 visitor 中生成 visitXxx() 方法
+
+        // 每个 xyz 规则 会在 语法解释器parser 中生成一个 xyz() 方法
+        // xyz 规则 和 他的分支（不管有没有），都会在 语法解释器parser 中生成 XxxContext
+        // 在这里，语法解释器parser 中的 SingleStatementContext 就是传入的 query 生成的 AST 的 root 节点
+        // parser.singleStatement() 返回的就是 SingleStatementContext 的对象
+        visitor.visitSingleStatement(parser.singleStatement());
     }
 }
