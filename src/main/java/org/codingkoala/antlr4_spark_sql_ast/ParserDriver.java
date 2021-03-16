@@ -61,8 +61,13 @@ public class ParserDriver {
         // 有两个 xyZ() 方法，分别位于 parser 里 和 context 里？？？？？？？
         // 构建 AST 的调用样例？？？？？？
         // visitor 访问的调用样例 ？？？？？
-        // += 的列表 和 普通的 正则列表不一样，前者需要记住一些信息？？？？？？？？
-        // 一个规则里，如果同一个 子语法规则 或者 词法规则有多个，那么会生成一个 list
+        // += 的列表 和 普通的 正则列表不一样，前者需要记住一些信息？？？？？？？？QueryOrganizationContext着重看一下
+        // 一个规则里，如果同一个 子语法规则 或者 词法规则有多个，那么会生成一个 list，但是两个同名规则，就不是list？例如#setTableSerDe
+        // querySpecification 规则中某一个分支，尽管有多个 kind 规则，但是并列，生成的 context 里也只是一个 kind，没有list
+        // + 和 * 在 context 中也会返回一个list，例如 #addTablePartition， #dropTablePartitions？？
+        // 但是 #setConfiguration 这种 * 不是作用在规则上，就没有list
+        // copyFrom(ctx)，子规则的context 的构造函数才有？？？？？？
+        // = 标签，生成的返回值类型有 token 和 Context 两种，取决于依赖？
 
         // parser.singleStatement() 构建了一棵 Context 树（AST），每一个节点都是一个 context，并最终返回 root 的 context
         // 这个 root context 最终交给 visitor，去访问这个 AST
