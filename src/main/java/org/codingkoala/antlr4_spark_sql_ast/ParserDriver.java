@@ -70,8 +70,8 @@ public class ParserDriver {
         // #setConfiguration 这种 * 不是作用在规则上，就没有list
 
         // Context 中 通过 getRuleContexts() 来获得一个 List<Context>
-        // Context 中 通过 getRuleContext() 来获得一个 语法规则的 context 节点
-        // Context 中 通过 getToken() 来获得一个 词法规则的 token
+        // Context 中 通过 getRuleContext() 来获得一个 语法规则的 context 节点，返回类型是 Context
+        // Context 中 通过 getToken() 来获得一个 词法规则的 token，返回的类型是 TerminalNode
 
 
 
@@ -109,10 +109,10 @@ public class ParserDriver {
         // ******************************************** 构建 AST 的大致过程 ********************************************
         // 在 SparkSQL 的语法中， singleStatement 是入口规则
         // 因此，直接调用 parser.singleStatement() 就可以构建 对应query 的AST
-        // AST 的每一个节点都是一个 Context 或者 Token
-        // Context 自身有两个比较重要的变量 children 和 parent
-        // Context 肯定对应的是非叶子节点，是一个 语法规则
-        // Token 对应的是叶子节点，是一个 词法规则
+        // AST 的每一个节点都是一个 Context类型 或者 TerminalNode类型
+        // Context类型 自身有两个比较重要的变量 children 和 parent
+        // Context类型 肯定对应的是非叶子节点，是一个 语法规则
+        // TerminalNode类型 对应的是叶子节点，是一个 词法规则
         // 其中 children 是一个 List<Context> 类型，parent 是单个 Context 类型，通过这两个变量，就可以从 AST 的 root Context 遍历整棵 AST
         // 构建的具体代码没有细看，根据推测，比如从 parser.singleStatement() 开始，首先构造 一个 SingleStatementContext，然后递归的构建 孩子 Context，然后赋值给他的 children变量
         // 子孩子Context 也是这样依次向下递归构建，最终把整个 AST 构建起来。
