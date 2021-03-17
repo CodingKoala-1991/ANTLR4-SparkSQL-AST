@@ -55,11 +55,13 @@ public class ParserDriver {
 
 
         // ******************************************** 关于 Context自身的 字段 和 方法 ********************************************
-        // g4 文件中的 = 标签，在 Context 中生成的字段的类型 有 token 和 Context 两种，取决于 = 后面的是词法规则还是语法规则，参考 #use 和 #createDatabase
+        // g4 文件中的 = 操作符，在 Context 中生成的字段的类型 有 token 和 Context 两种，取决于 = 后面的是词法规则还是语法规则，参考 #use 和 #createDatabase
 
-        // g4 文件中的 += 标签，在 Context 中生成 字段 和 方法，可以参考 queryOrganization 这个语法规则对应的 QueryOrganizationContext 类内部
+        // g4 文件中的 += 操作符，在 Context 中生成 字段 和 方法，可以参考 queryOrganization 这个语法规则对应的 QueryOrganizationContext 类内部
 
-        // = 和 += 标签，都会在 Context 中对应生成字段，就是用来记住一些信息的
+        // = 和 += 操作符，都会在 Context 中对应生成字段，就是用来记住一些信息的
+        // = 操作符 为规则中的元素添加标签,这样会在规则的上下文对象中添加元素的字段.
+        // += 操作符 可以很方便的记录大量的token或者规则的引用
 
         // 一个规则里，如果同一个 子语法规则 或者 词法规则有多个，那么会生成一个 list，例如 #setOperation
         // + 和 * 在 Context 中也会返回一个list，例如 #addTablePartition， #dropTablePartitions
