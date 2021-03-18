@@ -2,6 +2,8 @@ package org.codingkoala.antlr4_spark_sql_ast;
 
 import org.antlr.v4.runtime.ANTLRInputStream;
 import org.antlr.v4.runtime.CommonTokenStream;
+import org.antlr.v4.runtime.tree.ParseTree;
+import org.antlr.v4.runtime.tree.RuleNode;
 
 
 public class ParserDriver {
@@ -126,6 +128,45 @@ public class ParserDriver {
         // visitSingleStatement 方法的含义就是 访问 SingleStatementContext类型的 节点。
         // 然后 visitSingleStatement 方法内部，访问不同的 子孩子Context 的时候，可以自定义顺序，这就是 visitXxx 方法的自由。
         // visitor 用的是访问者模式
+
+
+
+        // ******************************************** AST 中节点 和 visitor 的继承链 ********************************************
+        // 例如，singleStatement 这个语法规则，对应 SingleStatementContext
+        // SingleStatementContext 继承自 ParserRuleContext
+        // ParserRuleContext 继承自 RuleContext，accept 的具体实现在 RuleContext 中实现
+            // 逻辑为  {return visitor.visitChildren(this);} 也就是继续用visitor中提供的 visitChildren 向下访问
+            // visitChildren 的实现逻辑
+        // RuleContext 继承自 RuleNode
+        // RuleNode 继承自 ParseTree
+        // ParseTree 继承自 SyntaxTree
+        // SyntaxTree 继承自 Tree
+        // Tree 是 org.antlr.v4.runtime.tree 中的 interface
+
+        // 词法规则是叶子节点，继承链如下：
+        // TerminalNodeImpl 是 org.antlr.v4.runtime.tree 中的一个类，继承自 TerminalNode
+        // TerminalNode 继承自 ParseTree
+        // ParseTree 继承自 SyntaxTree
+        // SyntaxTree 继承自 Tree
+        // Tree 是 org.antlr.v4.runtime.tree 中的 interface
+
+        // MyVisitor 是个人实现的 visitor，继承自 SqlBaseBaseVisitor
+        // SqlBaseBaseVisitor 是 ANTLR4 生成的，继承自 AbstractParseTreeVisitor 和 SqlBaseVisitor
+        // AbstractParseTreeVisitor 和 SqlBaseVisitor 都来自 ParseTreeVisitor
+            // AbstractParseTreeVisitor 中关于 visitChildren 的实现如下
+            //        public T visitChildren(RuleNode node) {
+            //            T result = this.defaultResult();
+            //            int n = node.getChildCount();
+            //
+            //            for(int i = 0; i < n && this.shouldVisitNextChild(node, result); ++i) {
+            //                ParseTree c = node.getChild(i);
+            //                T childResult = c.accept(this);
+            //                result = this.aggregateResult(result, childResult);
+            //            }
+            //
+            //            return result;
+            //        }
+        // ParseTreeVisitor 是 org.antlr.v4.runtime.tree 中的一个 interface
 
 
 
