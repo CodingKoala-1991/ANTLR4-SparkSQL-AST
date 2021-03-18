@@ -4,6 +4,7 @@ import org.antlr.v4.runtime.ANTLRInputStream;
 import org.antlr.v4.runtime.CommonTokenStream;
 import org.antlr.v4.runtime.tree.ParseTree;
 import org.antlr.v4.runtime.tree.RuleNode;
+import org.antlr.v4.runtime.tree.TerminalNode;
 
 
 public class ParserDriver {
@@ -135,8 +136,12 @@ public class ParserDriver {
         // 例如，singleStatement 这个语法规则，对应 SingleStatementContext
         // SingleStatementContext 继承自 ParserRuleContext
         // ParserRuleContext 继承自 RuleContext，accept 的具体实现在 RuleContext 中实现
-            // 逻辑为  {return visitor.visitChildren(this);} 也就是继续用visitor中提供的 visitChildren 向下访问
-            // visitChildren 的实现逻辑
+            // 逻辑为
+            //        public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
+            //            return visitor.visitChildren(this);
+            //        }
+            // 也就是继续用visitor中提供的 visitChildren 向下访问
+            // visitChildren 的实现逻辑参考下面
         // RuleContext 继承自 RuleNode
         // RuleNode 继承自 ParseTree
         // ParseTree 继承自 SyntaxTree
@@ -145,6 +150,10 @@ public class ParserDriver {
 
         // 词法规则是叶子节点，继承链如下：
         // TerminalNodeImpl 是 org.antlr.v4.runtime.tree 中的一个类，继承自 TerminalNode
+        // TerminalNodeImpl 也有 accept 方法，但是直接调用了 visitor 里的 visitTerminal 方法了
+            //        public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
+            //            return visitor.visitTerminal(this);
+            //        }
         // TerminalNode 继承自 ParseTree
         // ParseTree 继承自 SyntaxTree
         // SyntaxTree 继承自 Tree
@@ -154,6 +163,8 @@ public class ParserDriver {
         // SqlBaseBaseVisitor 是 ANTLR4 生成的，继承自 AbstractParseTreeVisitor 和 SqlBaseVisitor
         // AbstractParseTreeVisitor 和 SqlBaseVisitor 都来自 ParseTreeVisitor
             // AbstractParseTreeVisitor 中关于 visitChildren 的实现如下
+            // 其实就是调用每一个 孩子Node 的 accept 方法，接受这个 visitor
+            // accept 的实现方法参见上面
             //        public T visitChildren(RuleNode node) {
             //            T result = this.defaultResult();
             //            int n = node.getChildCount();
@@ -165,6 +176,15 @@ public class ParserDriver {
             //            }
             //
             //            return result;
+            //        }
+            // 还有一个 visit 方法，就是访问自身，也是调用 accept 方法，接受这个 visitor
+            //        public T visit(ParseTree tree) {
+            //            return tree.accept(this);
+            //        }
+            // visitTerminal 方法也很重要，但是不再需要向下了
+            // 调用 visitor 自身的 defaultResult 方法去做一些事
+            //        public T visitTerminal(TerminalNode node) {
+            //            return this.defaultResult();
             //        }
         // ParseTreeVisitor 是 org.antlr.v4.runtime.tree 中的一个 interface
 
