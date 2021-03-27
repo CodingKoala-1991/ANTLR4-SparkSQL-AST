@@ -195,12 +195,12 @@ public class ParserDriver {
         System.out.println("****************************");
 
 
-        // 另一种入口，对应 singleExpression 这种规则
-        String defaultExpression = "(A > B) AND (c = 10086)";
-        SqlBaseLexer expressionLexer = new SqlBaseLexer(new ANTLRInputStream(defaultExpression.toUpperCase()));
-        SqlBaseParser expressionParser = new SqlBaseParser(new CommonTokenStream(expressionLexer));
-        SqlBaseParser.SingleExpressionContext singleExpressionContext = expressionParser.singleExpression();
-        visitor.visitSingleExpression(singleExpressionContext);
+//        // 另一种入口，对应 singleExpression 这种规则
+//        String defaultExpression = "(A > B) AND (c = 10086)";
+//        SqlBaseLexer expressionLexer = new SqlBaseLexer(new ANTLRInputStream(defaultExpression.toUpperCase()));
+//        SqlBaseParser expressionParser = new SqlBaseParser(new CommonTokenStream(expressionLexer));
+//        SqlBaseParser.SingleExpressionContext singleExpressionContext = expressionParser.singleExpression();
+//        visitor.visitSingleExpression(singleExpressionContext);
 
     }
 }
